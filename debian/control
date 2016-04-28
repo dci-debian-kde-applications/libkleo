@@ -45,7 +45,11 @@ Package: libkf5libkleo-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5libkleo5 (= ${binary:Version}),
+Depends: libboost-dev (>= 1.34.0~),
+         libkf5gpgmepp-dev (>= 5.2.0~),
+         libkf5libkleo5 (= ${binary:Version}),
+         libkf5widgetsaddons-dev (>= 5.19.0~),
+         qtbase5-dev (>= 5.4.0~),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE PIM cryptographic library, devel files
