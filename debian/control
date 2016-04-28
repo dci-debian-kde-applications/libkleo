@@ -1,0 +1,45 @@
+Source: libkf5libkleo
+Section: libs
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 2.8.12~),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 5.19.0~),
+               pkg-kde-tools (>= 0.12)
+Standards-Version: 3.9.8
+Homepage: http://pim.kde.org/
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/libkleo.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkleo.git
+
+Package: libkf5libkleo5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: KDE PIM cryptographic library
+ This package contains libkleo, a library for Kleopatra and other parts of KDE
+ using certificate-based crypto.
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkf5libkleo-data
+Architecture: all
+Depends: ${misc:Depends}
+Description: KDE PIM cryptographic library, data files
+ This package contains the data files used by libkleo, a library for Kleopatra
+ and other parts of KDE using certificate-based crypto.
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkf5gravatar-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libkf5libkleo5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: KDE PIM cryptographic library, devel files
+ This package contains the development files for libkleo, a library for
+ Kleopatra and other parts of KDE using certificate-based crypto.
+ .
+ This package is part of the KDE PIM module.
