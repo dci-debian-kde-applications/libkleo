@@ -1,6 +1,6 @@
-libkf5libkleo (4:16.04.0-1~2.gbp627fd9) UNRELEASED; urgency=medium
+libkf5libkleo (4:16.04.1-1~1.gbpa30245) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @627fd9ae2b8233c006a90e074f43e8bdabf38337 **
+  ** SNAPSHOT build @a302455738004887882fad59f25d8335444d3ec3 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @cbaf86e9e443a3ef0469738b91e61ba59e7c0789 **
@@ -10,5 +10,6 @@ libkf5libkleo (4:16.04.0-1~2.gbp627fd9) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update symbols files
+  * Update symbols files.
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 29 Apr 2016 14:45:05 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 11 May 2016 00:29:13 +0200
