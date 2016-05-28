@@ -1,15 +1,10 @@
-libkf5libkleo (4:16.04.1-1~1.gbpa30245) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @a302455738004887882fad59f25d8335444d3ec3 **
+libkf5libkleo (4:16.04.1-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @cbaf86e9e443a3ef0469738b91e61ba59e7c0789 **
-
   * Initial release.
   * Add missing breaks/replaces
 
   [ Automatic packaging ]
-  * Update symbols files
   * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 11 May 2016 00:29:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 20:12:43 +0200
