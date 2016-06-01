@@ -1,3 +1,9 @@
+libkf5libkleo (4:16.04.1-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 01 Jun 2016 10:59:39 +0200
+
 libkf5libkleo (4:16.04.1-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
