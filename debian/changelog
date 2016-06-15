@@ -1,3 +1,11 @@
+libkf5libkleo (4:16.04.2-1~1.gbp71b1f5) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @71b1f5a7a45abee0f9248a34684ea2a794cd1647 **
+
+  * Update symbols files from buildds logs (4:16.04.1-2).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 06:29:40 +0200
+
 libkf5libkleo (4:16.04.1-2) unstable; urgency=medium
 
   * Release to unstable.
