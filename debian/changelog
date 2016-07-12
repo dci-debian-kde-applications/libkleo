@@ -1,3 +1,11 @@
+libkf5libkleo (4:16.04.3-1~1.gbp6f2f7f) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @6f2f7f92b7a10ab96f15e23a984851dbd8cc9061 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 13 Jul 2016 00:29:18 +0200
+
 libkf5libkleo (4:16.04.2-1) unstable; urgency=medium
 
   [ Automatic packaging ]
