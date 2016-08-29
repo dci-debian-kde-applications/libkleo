@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.1 alpha arm64 armel hppa hurd-i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
+# SymbolsHelper-Confirmed: 4:16.08.0 amd64
 libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN16KDHorizontalLine10indentHintEv@Base 4:15.12
  _ZN16KDHorizontalLine10paintEventEP11QPaintEvent@Base 4:15.12
@@ -235,6 +235,11 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN4Kleo16DecryptVerifyJobD0Ev@Base 4:15.12
  _ZN4Kleo16DecryptVerifyJobD1Ev@Base 4:15.12
  _ZN4Kleo16DecryptVerifyJobD2Ev@Base 4:15.12
+ _ZN4Kleo16DefaultKeyFilterC1Ev@Base 4:16.08.0
+ _ZN4Kleo16DefaultKeyFilterC2Ev@Base 4:16.08.0
+ _ZN4Kleo16DefaultKeyFilterD0Ev@Base 4:16.08.0
+ _ZN4Kleo16DefaultKeyFilterD1Ev@Base 4:16.08.0
+ _ZN4Kleo16DefaultKeyFilterD2Ev@Base 4:16.08.0
  _ZN4Kleo16GnuPGProcessBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN4Kleo16GnuPGProcessBase11qt_metacastEPKc@Base 4:15.12
  _ZN4Kleo16GnuPGProcessBase14setUseStatusFDEb@Base 4:15.12
@@ -256,6 +261,15 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN4Kleo16KeyFilterManagerD0Ev@Base 4:15.12
  _ZN4Kleo16KeyFilterManagerD1Ev@Base 4:15.12
  _ZN4Kleo16KeyFilterManagerD2Ev@Base 4:15.12
+ _ZN4Kleo16KeyForMailboxJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.08.0
+ _ZN4Kleo16KeyForMailboxJob11qt_metacastEPKc@Base 4:16.08.0
+ _ZN4Kleo16KeyForMailboxJob16staticMetaObjectE@Base 4:16.08.0
+ _ZN4Kleo16KeyForMailboxJob6resultERKN5GpgME13KeyListResultERKNS1_3KeyERKNS1_6UserIDERK7QStringRKNS1_5ErrorE@Base 4:16.08.0
+ _ZN4Kleo16KeyForMailboxJobC1EP7QObject@Base 4:16.08.0
+ _ZN4Kleo16KeyForMailboxJobC2EP7QObject@Base 4:16.08.0
+ _ZN4Kleo16KeyForMailboxJobD0Ev@Base 4:16.08.0
+ _ZN4Kleo16KeyForMailboxJobD1Ev@Base 4:16.08.0
+ _ZN4Kleo16KeyForMailboxJobD2Ev@Base 4:16.08.0
  _ZN4Kleo17DNAttributeMapper17setAttributeOrderERK11QStringList@Base 4:15.12
  _ZN4Kleo17DNAttributeMapper5mSelfE@Base 4:15.12
  _ZN4Kleo17DNAttributeMapper7PrivateC1Ev@Base 4:15.12
@@ -551,6 +565,66 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZNK4Kleo15ChangePasswdJob10metaObjectEv@Base 4:15.12
  _ZNK4Kleo15VerifyOpaqueJob10metaObjectEv@Base 4:15.12
  _ZNK4Kleo16DecryptVerifyJob10metaObjectEv@Base 4:15.12
+ _ZNK4Kleo16DefaultKeyFilter10canCertifyEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter10canEncryptEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter10ownerTrustEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter10setBgColorERK6QColor@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter10setCanSignENS0_8TriStateE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter10setCardKeyENS0_8TriStateE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter10setExpiredENS0_8TriStateE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter10setFgColorERK6QColor@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter10setRevokedENS0_8TriStateE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter11setDisabledENS0_8TriStateE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter11setValidityENS0_10LevelStateE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter11specificityEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter11useFullFontEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter12setHasSecretENS0_8TriStateE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter12setIsOpenPGPENS0_8TriStateE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter12setQualifiedENS0_8TriStateE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter12setStrikeOutEb@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter12wasValidatedEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter13setCanCertifyENS0_8TriStateE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter13setCanEncryptENS0_8TriStateE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter13setOwnerTrustENS0_10LevelStateE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter14fontDesriptionEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter14setSpecificityEj@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter14setUseFullFontEb@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter15canAuthenticateEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter15setWasValidatedENS0_8TriStateE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter16setMatchContextsE6QFlagsINS_9KeyFilter12MatchContextEE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter18setCanAuthenticateENS0_8TriStateE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter22availableMatchContextsEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter22validityReferenceLevelEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter24ownerTrustReferenceLevelEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter25setValidityReferenceLevelEN5GpgME6UserID8ValidityE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter27setOwnerTrustReferenceLevelEN5GpgME3Key10OwnerTrustE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter2idEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter4boldEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter4fontEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter4iconEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter4nameEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter4rootEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter5setIdERK7QString@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter6italicEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter7bgColorEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter7canSignEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter7cardKeyEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter7expiredEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter7fgColorEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter7matchesERKN5GpgME3KeyE6QFlagsINS_9KeyFilter12MatchContextEE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter7revokedEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter7setBoldEb@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter7setFontERK5QFont@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter7setIconERK7QString@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter7setNameERK7QString@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter7setRootENS0_8TriStateE@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter8disabledEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter8validityEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter9hasSecretEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter9isOpenPGPEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter9qualifiedEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter9setItalicEb@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter9strikeOutEv@Base 4:16.08.0
  _ZNK4Kleo16GnuPGProcessBase10metaObjectEv@Base 4:15.12
  _ZNK4Kleo16KeyFilterManager10metaObjectEv@Base 4:15.12
  _ZNK4Kleo16KeyFilterManager12toModelIndexERKN5boost10shared_ptrINS_9KeyFilterEEE@Base 4:15.12
@@ -563,6 +637,7 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZNK4Kleo16KeyFilterManager5modelEv@Base 4:15.12
  _ZNK4Kleo16KeyFilterManager7bgColorERKN5GpgME3KeyE@Base 4:15.12
  _ZNK4Kleo16KeyFilterManager7fgColorERKN5GpgME3KeyE@Base 4:15.12
+ _ZNK4Kleo16KeyForMailboxJob10metaObjectEv@Base 4:16.08.0
  _ZNK4Kleo17DNAttributeMapper10name2labelERK7QString@Base 4:15.12
  _ZNK4Kleo17DNAttributeMapper12configWidgetEP7QWidget@Base 4:15.12
  _ZNK4Kleo17DNAttributeMapper14attributeOrderEv@Base 4:15.12
@@ -627,7 +702,7 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZNK4Kleo3Job19isAuditLogSupportedEv@Base 4:15.12
  _ZNK4Kleo7SignJob10metaObjectEv@Base 4:15.12
  _ZNK6QColor7isValidEv@Base 4:15.12
- (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 4:15.12
+ (optional=templinst|arch=!amd64)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EED1Ev@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EED2Ev@Base 4:15.12
@@ -635,7 +710,7 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  (optional=templinst|arch=alpha arm64 armel armhf hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED2Ev@Base 4:16.04.0
  (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED1Ev@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED2Ev@Base 4:15.12
- (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 4:15.12
+ (optional=templinst|arch=!amd64)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 4:15.12
  (optional=templinst|arch=powerpc ppc64 ppc64el|subst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE7reserveE{size_t}@Base 4:16.04.1
  (optional=templinst|arch=!x32)_ZNSt6vectorIN5GpgME3KeyESaIS1_EEC1ERKS3_@Base 4:15.12
@@ -644,17 +719,19 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED2Ev@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED1Ev@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED2Ev@Base 4:15.12
- (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIIS5_EEEvDpOT_@Base 4:15.12
+ (optional=templinst|arch=!amd64)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIIS5_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIJS5_EEEvDpOT_@Base 4:15.12
- (optional=templinst|arch=alpha amd64 arm64 armel armhf hppa kfreebsd-amd64 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIIS5_EEEvDpOT_@Base 4:15.12
+ (optional=templinst|arch=alpha arm64 armel hppa kfreebsd-amd64 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIIS5_EEEvDpOT_@Base 4:15.12
  (optional=templinst|arch=alpha amd64 arm64 armel armhf hppa kfreebsd-amd64 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIJS5_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIP9QComboBoxSaIS1_EE19_M_emplace_back_auxIIRKS1_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIP9QComboBoxSaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_@Base 4:15.12
- (optional=templinst)_ZNSt6vectorIPN4Kleo12KeyRequesterESaIS2_EE19_M_emplace_back_auxIIRKS2_EEEvDpOT_@Base 4:15.12
+ (optional=templinst|arch=!amd64)_ZNSt6vectorIPN4Kleo12KeyRequesterESaIS2_EE19_M_emplace_back_auxIIRKS2_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIPN4Kleo12KeyRequesterESaIS2_EE19_M_emplace_back_auxIJRKS2_EEEvDpOT_@Base 4:15.12
+ (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJiEEEvDpOT_@Base 4:16.08.0
+ (optional=templinst)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIJjEEEvDpOT_@Base 4:16.08.0
  (optional=templinst)_ZNSt6vectorIjSaIjEEaSERKS1_@Base 4:15.12
  (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE16_M_insert_uniqueIS0_EESt4pairISt17_Rb_tree_iteratorIS0_EbEOT_@Base 4:15.12
- (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE17_M_insert_unique_IRKS0_NS6_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS0_ESt23_Rb_tree_const_iteratorIS0_EOT_RT0_@Base 4:15.12
+ (optional=templinst|arch=!amd64)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE17_M_insert_unique_IRKS0_NS6_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS0_ESt23_Rb_tree_const_iteratorIS0_EOT_RT0_@Base 4:15.12
  (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE24_M_get_insert_unique_posERKS0_@Base 4:15.12
  (optional=templinst|arch=!alpha !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS0_ERKS0_@Base 4:15.12
  (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE8_M_eraseEPSt13_Rb_tree_nodeIS0_E@Base 4:15.12
@@ -677,8 +754,10 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZTIN4Kleo15ChangePasswdJobE@Base 4:15.12
  _ZTIN4Kleo15VerifyOpaqueJobE@Base 4:15.12
  _ZTIN4Kleo16DecryptVerifyJobE@Base 4:15.12
+ _ZTIN4Kleo16DefaultKeyFilterE@Base 4:16.08.0
  _ZTIN4Kleo16GnuPGProcessBaseE@Base 4:15.12
  _ZTIN4Kleo16KeyFilterManagerE@Base 4:15.12
+ _ZTIN4Kleo16KeyForMailboxJobE@Base 4:16.08.0
  _ZTIN4Kleo17FileNameRequesterE@Base 4:15.12
  _ZTIN4Kleo17KeyApprovalDialogE@Base 4:15.12
  _ZTIN4Kleo18ChecksumDefinitionE@Base 4:15.12
@@ -716,8 +795,10 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZTSN4Kleo15ChangePasswdJobE@Base 4:15.12
  _ZTSN4Kleo15VerifyOpaqueJobE@Base 4:15.12
  _ZTSN4Kleo16DecryptVerifyJobE@Base 4:15.12
+ _ZTSN4Kleo16DefaultKeyFilterE@Base 4:16.08.0
  _ZTSN4Kleo16GnuPGProcessBaseE@Base 4:15.12
  _ZTSN4Kleo16KeyFilterManagerE@Base 4:15.12
+ _ZTSN4Kleo16KeyForMailboxJobE@Base 4:16.08.0
  _ZTSN4Kleo17FileNameRequesterE@Base 4:15.12
  _ZTSN4Kleo17KeyApprovalDialogE@Base 4:15.12
  _ZTSN4Kleo18ChecksumDefinitionE@Base 4:15.12
@@ -755,8 +836,10 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZTVN4Kleo15ChangePasswdJobE@Base 4:15.12
  _ZTVN4Kleo15VerifyOpaqueJobE@Base 4:15.12
  _ZTVN4Kleo16DecryptVerifyJobE@Base 4:15.12
+ _ZTVN4Kleo16DefaultKeyFilterE@Base 4:16.08.0
  _ZTVN4Kleo16GnuPGProcessBaseE@Base 4:15.12
  _ZTVN4Kleo16KeyFilterManagerE@Base 4:15.12
+ _ZTVN4Kleo16KeyForMailboxJobE@Base 4:16.08.0
  _ZTVN4Kleo17FileNameRequesterE@Base 4:15.12
  _ZTVN4Kleo17KeyApprovalDialogE@Base 4:15.12
  _ZTVN4Kleo18ChecksumDefinitionE@Base 4:15.12
