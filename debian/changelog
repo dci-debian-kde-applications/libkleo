@@ -1,6 +1,6 @@
-libkf5libkleo (4:16.08.0-1~1.gbp573464) UNRELEASED; urgency=medium
+libkf5libkleo (4:16.08.0-1~2.gbp6ee5f9) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @5734645abffef555c949b3719f23371f6519fd72 **
+  ** SNAPSHOT build @6ee5f929c6ef39cc6d28232a72b7015609db49e8 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @6f2f7f92b7a10ab96f15e23a984851dbd8cc9061 **
@@ -9,8 +9,9 @@ libkf5libkleo (4:16.08.0-1~1.gbp573464) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Update symbols files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 00:29:10 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 29 Aug 2016 09:20:47 +0200
 
 libkf5libkleo (4:16.04.2-1) unstable; urgency=medium
 
