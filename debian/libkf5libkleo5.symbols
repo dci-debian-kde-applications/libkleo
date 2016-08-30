@@ -723,7 +723,7 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIJS5_EEEvDpOT_@Base 4:15.12
  (optional=templinst|arch=alpha arm64 armel hppa kfreebsd-amd64 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIIS5_EEEvDpOT_@Base 4:15.12
  (optional=templinst|arch=alpha amd64 arm64 armel armhf hppa kfreebsd-amd64 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIJS5_EEEvDpOT_@Base 4:15.12
- (optional=templinst)_ZNSt6vectorIP9QComboBoxSaIS1_EE19_M_emplace_back_auxIIRKS1_EEEvDpOT_@Base 4:15.12
+ (optional=templinst|arch=!amd64)_ZNSt6vectorIP9QComboBoxSaIS1_EE19_M_emplace_back_auxIIRKS1_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIP9QComboBoxSaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_@Base 4:15.12
  (optional=templinst|arch=!amd64)_ZNSt6vectorIPN4Kleo12KeyRequesterESaIS2_EE19_M_emplace_back_auxIIRKS2_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIPN4Kleo12KeyRequesterESaIS2_EE19_M_emplace_back_auxIJRKS2_EEEvDpOT_@Base 4:15.12
