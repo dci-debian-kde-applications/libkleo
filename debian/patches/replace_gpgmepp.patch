@@ -1,0 +1,317 @@
+--- a/src/backends/qgpgme/qgpgmeadduseridjob.cpp
++++ b/src/backends/qgpgme/qgpgmeadduseridjob.cpp
+@@ -57,18 +57,16 @@ QGpgMEAddUserIDJob::~QGpgMEAddUserIDJob(
+ static QGpgMEAddUserIDJob::result_type add_user_id(Context *ctx, const Key &key, const QString &name, const QString &email, const QString &comment)
+ {
+ 
+-    std::auto_ptr<GpgAddUserIDEditInteractor> gau(new GpgAddUserIDEditInteractor);
++    GpgAddUserIDEditInteractor *gau(new GpgAddUserIDEditInteractor);
+ 
+     gau->setNameUtf8(name.toUtf8().constData());
+     gau->setEmailUtf8(email.toUtf8().constData());
+     gau->setCommentUtf8(comment.toUtf8().constData());
+ 
+-    std::auto_ptr<EditInteractor> ei(gau);
+-
+     QGpgME::QByteArrayDataProvider dp;
+     Data data(&dp);
+     assert(!data.isNull());
+-    const Error err = ctx->edit(key, ei, data);
++    const Error err = ctx->edit(key, std::unique_ptr<EditInteractor> (gau), data);
+     Error ae;
+     const QString log = _detail::audit_log_as_html(ctx, ae);
+     return make_tuple(err, log, ae);
+--- a/src/backends/qgpgme/qgpgmechangeexpiryjob.cpp
++++ b/src/backends/qgpgme/qgpgmechangeexpiryjob.cpp
+@@ -59,15 +59,14 @@ QGpgMEChangeExpiryJob::~QGpgMEChangeExpi
+ 
+ static QGpgMEChangeExpiryJob::result_type change_expiry(Context *ctx, const Key &key, const QDateTime &expiry)
+ {
+-    std::auto_ptr<EditInteractor>
+-    ei(expiry.isValid()
++    EditInteractor *ei(expiry.isValid()
+        ? new GpgSetExpiryTimeEditInteractor(expiry.date().toString(Qt::ISODate).toStdString())
+        : new GpgSetExpiryTimeEditInteractor());
+ 
+     QGpgME::QByteArrayDataProvider dp;
+     Data data(&dp);
+     assert(!data.isNull());
+-    const Error err = ctx->edit(key, ei, data);
++    const Error err = ctx->edit(key, std::unique_ptr<EditInteractor> (ei), data);
+     Error ae;
+     const QString log = _detail::audit_log_as_html(ctx, ae);
+     return make_tuple(err, log, ae);
+--- a/src/backends/qgpgme/qgpgmechangeownertrustjob.cpp
++++ b/src/backends/qgpgme/qgpgmechangeownertrustjob.cpp
+@@ -56,14 +56,13 @@ QGpgMEChangeOwnerTrustJob::~QGpgMEChange
+ 
+ static QGpgMEChangeOwnerTrustJob::result_type change_ownertrust(Context *ctx, const Key &key, Key::OwnerTrust trust)
+ {
+-    std::auto_ptr<EditInteractor>
+-    ei(new GpgSetOwnerTrustEditInteractor(trust));
++    EditInteractor *ei(new GpgSetOwnerTrustEditInteractor(trust));
+ 
+     QGpgME::QByteArrayDataProvider dp;
+     Data data(&dp);
+     assert(!data.isNull());
+ 
+-    const Error err = ctx->edit(key, ei, data);
++    const Error err = ctx->edit(key, std::unique_ptr<EditInteractor> (ei), data);
+     Error ae;
+     const QString log = _detail::audit_log_as_html(ctx, ae);
+     return make_tuple(err, log, ae);
+--- a/src/backends/qgpgme/qgpgmedecryptjob.cpp
++++ b/src/backends/qgpgme/qgpgmedecryptjob.cpp
+@@ -59,13 +59,13 @@ QGpgMEDecryptJob::~QGpgMEDecryptJob() {}
+ static QGpgMEDecryptJob::result_type decrypt(Context *ctx, QThread *thread, const weak_ptr<QIODevice> &cipherText_, const weak_ptr<QIODevice> &plainText_)
+ {
+ 
+-    const shared_ptr<QIODevice> cipherText = cipherText_.lock();
+-    const shared_ptr<QIODevice> plainText = plainText_.lock();
++    shared_ptr<QIODevice> cipherText = cipherText_.lock();
++    shared_ptr<QIODevice> plainText = plainText_.lock();
+ 
+     const _detail::ToThreadMover ctMover(cipherText, thread);
+     const _detail::ToThreadMover ptMover(plainText,  thread);
+ 
+-    QGpgME::QIODeviceDataProvider in(cipherText);
++    QGpgME::QIODeviceDataProvider in(make_shared_ptr<QIODevice>(cipherText));
+     const Data indata(&in);
+ 
+     if (!plainText) {
+@@ -77,7 +77,7 @@ static QGpgMEDecryptJob::result_type dec
+         const QString log = _detail::audit_log_as_html(ctx, ae);
+         return make_tuple(res, out.data(), log, ae);
+     } else {
+-        QGpgME::QIODeviceDataProvider out(plainText);
++        QGpgME::QIODeviceDataProvider out(make_shared_ptr<QIODevice>(plainText));
+         Data outdata(&out);
+ 
+         const DecryptionResult res = ctx->decrypt(indata, outdata);
+--- a/src/backends/qgpgme/qgpgmedecryptverifyjob.cpp
++++ b/src/backends/qgpgme/qgpgmedecryptverifyjob.cpp
+@@ -65,13 +65,13 @@ static QGpgMEDecryptVerifyJob::result_ty
+ 
+     qCDebug(GPGPME_BACKEND_LOG);
+ 
+-    const shared_ptr<QIODevice> cipherText = cipherText_.lock();
+-    const shared_ptr<QIODevice> plainText = plainText_.lock();
++    shared_ptr<QIODevice> cipherText = cipherText_.lock();
++    shared_ptr<QIODevice> plainText = plainText_.lock();
+ 
+     const _detail::ToThreadMover ctMover(cipherText, thread);
+     const _detail::ToThreadMover ptMover(plainText,  thread);
+ 
+-    QGpgME::QIODeviceDataProvider in(cipherText);
++    QGpgME::QIODeviceDataProvider in(make_shared_ptr<QIODevice>(cipherText));
+     const Data indata(&in);
+ 
+     if (!plainText) {
+@@ -84,7 +84,7 @@ static QGpgMEDecryptVerifyJob::result_ty
+         qCDebug(GPGPME_BACKEND_LOG) << "End no plainText. Error: " << ae;
+         return make_tuple(res.first, res.second, out.data(), log, ae);
+     } else {
+-        QGpgME::QIODeviceDataProvider out(plainText);
++        QGpgME::QIODeviceDataProvider out(make_shared_ptr<QIODevice>(plainText));
+         Data outdata(&out);
+ 
+         const std::pair<DecryptionResult, VerificationResult> res = ctx->decryptAndVerify(indata, outdata);
+--- a/src/backends/qgpgme/qgpgmedownloadjob.cpp
++++ b/src/backends/qgpgme/qgpgmedownloadjob.cpp
+@@ -32,7 +32,7 @@
+ 
+ #include "qgpgmedownloadjob.h"
+ 
+-#include <qgpgme/dataprovider.h>
++#include "qgpgme/dataprovider.h"
+ 
+ #include <gpgme++/context.h>
+ #include <gpgme++/data.h>
+@@ -70,14 +70,14 @@ static QGpgMEDownloadJob::result_type do
+ 
+ static QGpgMEDownloadJob::result_type download(Context *ctx, QThread *thread, const QByteArray &fpr, const weak_ptr<QIODevice> &keyData_)
+ {
+-    const shared_ptr<QIODevice> keyData = keyData_.lock();
++    shared_ptr<QIODevice> keyData = keyData_.lock();
+     if (!keyData) {
+         return download_qsl(ctx, QStringList(QString::fromUtf8(fpr)));
+     }
+ 
+     const _detail::ToThreadMover kdMover(keyData, thread);
+ 
+-    QGpgME::QIODeviceDataProvider dp(keyData);
++    QGpgME::QIODeviceDataProvider dp(make_shared_ptr<QIODevice>(keyData));
+     Data data(&dp);
+ 
+     const _detail::PatternConverter pc(fpr);
+--- a/src/backends/qgpgme/qgpgmeencryptjob.cpp
++++ b/src/backends/qgpgme/qgpgmeencryptjob.cpp
+@@ -72,13 +72,13 @@ static QGpgMEEncryptJob::result_type enc
+         bool outputIsBsse64Encoded)
+ {
+ 
+-    const shared_ptr<QIODevice> plainText = plainText_.lock();
+-    const shared_ptr<QIODevice> cipherText = cipherText_.lock();
++    shared_ptr<QIODevice> plainText = plainText_.lock();
++    shared_ptr<QIODevice> cipherText = cipherText_.lock();
+ 
+     const _detail::ToThreadMover ctMover(cipherText, thread);
+     const _detail::ToThreadMover ptMover(plainText,  thread);
+ 
+-    QGpgME::QIODeviceDataProvider in(plainText);
++    QGpgME::QIODeviceDataProvider in(make_shared_ptr<QIODevice>(plainText));
+     const Data indata(&in);
+ 
+     const Context::EncryptionFlags eflags =
+@@ -97,7 +97,7 @@ static QGpgMEEncryptJob::result_type enc
+         const QString log = _detail::audit_log_as_html(ctx, ae);
+         return make_tuple(res, out.data(), log, ae);
+     } else {
+-        QGpgME::QIODeviceDataProvider out(cipherText);
++        QGpgME::QIODeviceDataProvider out(make_shared_ptr<QIODevice>(cipherText));
+         Data outdata(&out);
+ 
+         if (outputIsBsse64Encoded) {
+--- a/src/backends/qgpgme/qgpgmesignencryptjob.cpp
++++ b/src/backends/qgpgme/qgpgmesignencryptjob.cpp
+@@ -67,13 +67,13 @@ void QGpgMESignEncryptJob::setOutputIsBa
+ 
+ static QGpgMESignEncryptJob::result_type sign_encrypt(Context *ctx, QThread *thread, const std::vector<Key> &signers, const std::vector<Key> &recipients, const weak_ptr<QIODevice> &plainText_, const weak_ptr<QIODevice> &cipherText_, bool alwaysTrust, bool outputIsBsse64Encoded)
+ {
+-    const shared_ptr<QIODevice> &plainText = plainText_.lock();
+-    const shared_ptr<QIODevice> &cipherText = cipherText_.lock();
++    shared_ptr<QIODevice> plainText = plainText_.lock();
++    shared_ptr<QIODevice> cipherText = cipherText_.lock();
+ 
+     const _detail::ToThreadMover ctMover(cipherText, thread);
+     const _detail::ToThreadMover ptMover(plainText, thread);
+ 
+-    QGpgME::QIODeviceDataProvider in(plainText);
++    QGpgME::QIODeviceDataProvider in(make_shared_ptr<QIODevice>(plainText));
+     const Data indata(&in);
+ 
+     const Context::EncryptionFlags eflags =
+@@ -99,7 +99,7 @@ static QGpgMESignEncryptJob::result_type
+         const QString log = _detail::audit_log_as_html(ctx, ae);
+         return make_tuple(res.first, res.second, out.data(), log, ae);
+     } else {
+-        QGpgME::QIODeviceDataProvider out(cipherText);
++        QGpgME::QIODeviceDataProvider out(make_shared_ptr<QIODevice>(cipherText));
+         Data outdata(&out);
+ 
+         if (outputIsBsse64Encoded) {
+--- a/src/backends/qgpgme/qgpgmesignjob.cpp
++++ b/src/backends/qgpgme/qgpgmesignjob.cpp
+@@ -72,13 +72,13 @@ static QGpgMESignJob::result_type sign(C
+                                        bool outputIsBsse64Encoded)
+ {
+ 
+-    const shared_ptr<QIODevice> plainText = plainText_.lock();
+-    const shared_ptr<QIODevice> signature = signature_.lock();
++    shared_ptr<QIODevice> plainText = plainText_.lock();
++    shared_ptr<QIODevice> signature = signature_.lock();
+ 
+     const _detail::ToThreadMover ptMover(plainText, thread);
+     const _detail::ToThreadMover sgMover(signature, thread);
+ 
+-    QGpgME::QIODeviceDataProvider in(plainText);
++    QGpgME::QIODeviceDataProvider in(make_shared_ptr<QIODevice>(plainText));
+     const Data indata(&in);
+ 
+     ctx->clearSigningKeys();
+@@ -101,7 +101,7 @@ static QGpgMESignJob::result_type sign(C
+         const QString log = _detail::audit_log_as_html(ctx, ae);
+         return make_tuple(res, out.data(), log, ae);
+     } else {
+-        QGpgME::QIODeviceDataProvider out(signature);
++        QGpgME::QIODeviceDataProvider out(make_shared_ptr<QIODevice>(signature));
+         Data outdata(&out);
+ 
+         if (outputIsBsse64Encoded) {
+--- a/src/backends/qgpgme/qgpgmesignkeyjob.cpp
++++ b/src/backends/qgpgme/qgpgmesignkeyjob.cpp
+@@ -64,18 +64,16 @@ static QGpgMESignKeyJob::result_type sig
+     QGpgME::QByteArrayDataProvider dp;
+     Data data(&dp);
+ 
+-    std::auto_ptr<GpgSignKeyEditInteractor> skei(new GpgSignKeyEditInteractor);
++    GpgSignKeyEditInteractor *skei(new GpgSignKeyEditInteractor);
+     skei->setUserIDsToSign(uids);
+     skei->setCheckLevel(checkLevel);
+     skei->setSigningOptions(opts);
+ 
+-    std::auto_ptr<EditInteractor> ei(skei);
+-
+     if (!signer.isNull())
+         if (const Error err = ctx->addSigningKey(signer)) {
+             return make_tuple(err, QString(), Error());
+         }
+-    const Error err = ctx->edit(key, ei, data);
++    const Error err = ctx->edit(key, std::unique_ptr<EditInteractor> (skei), data);
+     Error ae;
+     const QString log = _detail::audit_log_as_html(ctx, ae);
+     return make_tuple(err, log, ae);
+--- a/src/backends/qgpgme/qgpgmeverifydetachedjob.cpp
++++ b/src/backends/qgpgme/qgpgmeverifydetachedjob.cpp
+@@ -56,16 +56,16 @@ QGpgMEVerifyDetachedJob::~QGpgMEVerifyDe
+ 
+ static QGpgMEVerifyDetachedJob::result_type verify_detached(Context *ctx, QThread *thread, const weak_ptr<QIODevice> &signature_, const weak_ptr<QIODevice> &signedData_)
+ {
+-    const shared_ptr<QIODevice> signature = signature_.lock();
+-    const shared_ptr<QIODevice> signedData = signedData_.lock();
++    shared_ptr<QIODevice> signature = signature_.lock();
++    shared_ptr<QIODevice> signedData = signedData_.lock();
+ 
+     const _detail::ToThreadMover sgMover(signature,  thread);
+     const _detail::ToThreadMover sdMover(signedData, thread);
+ 
+-    QGpgME::QIODeviceDataProvider sigDP(signature);
++    QGpgME::QIODeviceDataProvider sigDP(make_shared_ptr<QIODevice>(signature));
+     Data sig(&sigDP);
+ 
+-    QGpgME::QIODeviceDataProvider dataDP(signedData);
++    QGpgME::QIODeviceDataProvider dataDP(make_shared_ptr<QIODevice>(signedData));
+     Data data(&dataDP);
+ 
+     const VerificationResult res = ctx->verifyDetachedSignature(sig, data);
+--- a/src/backends/qgpgme/qgpgmeverifyopaquejob.cpp
++++ b/src/backends/qgpgme/qgpgmeverifyopaquejob.cpp
+@@ -59,13 +59,13 @@ QGpgMEVerifyOpaqueJob::~QGpgMEVerifyOpaq
+ static QGpgMEVerifyOpaqueJob::result_type verify_opaque(Context *ctx, QThread *thread, const weak_ptr<QIODevice> &signedData_, const weak_ptr<QIODevice> &plainText_)
+ {
+ 
+-    const shared_ptr<QIODevice> plainText = plainText_.lock();
+-    const shared_ptr<QIODevice> signedData = signedData_.lock();
++    shared_ptr<QIODevice> plainText = plainText_.lock();
++    shared_ptr<QIODevice> signedData = signedData_.lock();
+ 
+     const _detail::ToThreadMover ptMover(plainText,  thread);
+     const _detail::ToThreadMover sdMover(signedData, thread);
+ 
+-    QGpgME::QIODeviceDataProvider in(signedData);
++    QGpgME::QIODeviceDataProvider in(make_shared_ptr<QIODevice>(signedData));
+     const Data indata(&in);
+ 
+     if (!plainText) {
+@@ -77,7 +77,7 @@ static QGpgMEVerifyOpaqueJob::result_typ
+         const QString log = _detail::audit_log_as_html(ctx, ae);
+         return make_tuple(res, out.data(), log, ae);
+     } else {
+-        QGpgME::QIODeviceDataProvider out(plainText);
++        QGpgME::QIODeviceDataProvider out(make_shared_ptr<QIODevice>(plainText));
+         Data outdata(&out);
+ 
+         const VerificationResult res = ctx->verifyOpaqueSignature(indata, outdata);
+--- a/src/backends/qgpgme/threadedjobmixin.h
++++ b/src/backends/qgpgme/threadedjobmixin.h
+@@ -272,5 +272,10 @@ private:
+ }
+ }
+ 
++template<typename T> std::shared_ptr<T> make_shared_ptr(boost::shared_ptr<T>& ptr)
++{
++        return std::shared_ptr<T>(ptr.get(), [ptr](T*) mutable {ptr.reset();});
++}
++
+ #endif /* __KLEO_THREADEDJOBMIXING_H__ */
+ 

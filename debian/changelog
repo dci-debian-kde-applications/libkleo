@@ -2,6 +2,13 @@ libkf5libkleo (4:16.04.2-2~) UNRELEASED; urgency=medium
 
   * Team upload.
 
+  [ Sandro Knauß ]
+  * Build against GpgME>=1.8.0, to get rid of gpgmepp
+    - Update Build-Dep (libkf5gpgmepp-dev-, libgpgme-dev+, libgpgmepp-dev+)
+    - Add patch remove_gpgmepp.patch to build with GpgME
+    - Add patch replace_gpgmepp.patch
+      to switch from boost::shared_ptr to std::shared_ptr
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2016 13:54:13 +0100
 
 libkf5libkleo (4:16.04.2-1) unstable; urgency=medium

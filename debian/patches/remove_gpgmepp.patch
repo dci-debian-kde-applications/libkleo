@@ -1,0 +1,50 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -22,7 +22,7 @@ include(ECMAddTests)
+ set(KF5_VERSION "5.19.0")
+ set(LIBKLEO_LIB_VERSION "5.2.2")
+ set(QT_REQUIRED_VERSION "5.4.0")
+-set(GPGMEPP_LIB_VERSION "5.2.0")
++set(GPGMEPP_LIB_VERSION "1.8.0")
+ set(KDEPIMTEXTEDIT_VERSION "5.2.0")
+ set(PIMCOMMON_LIB_VERSION "5.2.0")
+ 
+@@ -33,7 +33,8 @@ find_package(KF5WidgetsAddons ${KF5_VERS
+ find_package(KF5Completion ${KF5_VERSION} CONFIG REQUIRED)
+ find_package(KF5WindowSystem ${KF5_VERSION} CONFIG REQUIRED)
+ find_package(KF5CoreAddons ${KF5_VERSION} CONFIG REQUIRED)
+-find_package(KF5Gpgmepp ${GPGMEPP_LIB_VERSION} CONFIG REQUIRED)
++find_package(Gpgmepp ${GPGMEPP_LIB_VERSION} CONFIG REQUIRED)
++find_package(QGpgme ${GPGMEPP_LIB_VERSION} CONFIG REQUIRED)
+ find_package(KF5PimTextEdit ${KDEPIMTEXTEDIT_VERSION} CONFIG)
+ 
+ find_package(Boost 1.34.0)
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -107,7 +107,7 @@ set(kleo_LIB_SRCS ${libkleo_core_SRCS} $
+                                        ${libkleo_ui_common_SRCS}
+                                        ${libkleo_backend_qgpgme_SRCS})
+ 
+-set(kleo_LIB_LIBS PUBLIC KF5::QGpgme PRIVATE Qt5::Widgets
++set(kleo_LIB_LIBS PUBLIC QGpgme PRIVATE Qt5::Widgets
+                                              KF5::I18n
+                                              KF5::Completion
+                                              KF5::ConfigCore
+@@ -116,8 +116,6 @@ set(kleo_LIB_LIBS PUBLIC KF5::QGpgme PRI
+                                              KF5::WidgetsAddons)
+ if (WIN32)
+   set(kleo_LIB_LIBS ${kleo_LIB_LIBS} PUBLIC KF5::Gpgmepp)
+-else()
+-  set(kleo_LIB_LIBS ${kleo_LIB_LIBS} PUBLIC KF5::Gpgmepp-pthread)
+ endif()
+ 
+ if (KF5PimTextEdit_FOUND)
+--- a/KF5LibkleoConfig.cmake.in
++++ b/KF5LibkleoConfig.cmake.in
+@@ -1,4 +1,5 @@
+ @PACKAGE_INIT@
+ 
+-find_dependency(KF5Gpgmepp "@GPGMEPP_LIB_VERSION@")
++find_dependency(QGpgme "@GPGMEPP_LIB_VERSION@")
++find_dependency(Gpgmepp "@GPGMEPP_LIB_VERSION@")
+ include("${CMAKE_CURRENT_LIST_DIR}/KF5LibkleoTargets.cmake")
