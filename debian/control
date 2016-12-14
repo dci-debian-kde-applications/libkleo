@@ -10,11 +10,12 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5completion-dev (>= 5.19.0~),
                libkf5config-dev (>= 5.19.0~),
                libkf5coreaddons-dev (>= 5.19.0~),
-               libkf5gpgmepp-dev (>= 5.2.0~),
                libkf5i18n-dev (>= 5.19.0~),
+               libkf5itemmodels-dev,
                libkf5pimtextedit-dev (>= 5.2.0~),
                libkf5widgetsaddons-dev (>= 5.19.0~),
                libkf5windowsystem-dev (>= 5.19.0~),
+               libqgpgme7-dev,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.8
@@ -48,9 +49,9 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libboost-dev (>= 1.34.0~),
-         libkf5gpgmepp-dev (>= 5.2.0~),
          libkf5libkleo5 (= ${binary:Version}),
          libkf5widgetsaddons-dev (>= 5.19.0~),
+         libqgpgme7-dev,
          qtbase5-dev (>= 5.4.0~),
          ${misc:Depends},
          ${shlibs:Depends}
