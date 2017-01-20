@@ -26,7 +26,9 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkleo.git
 Package: libkf5libkleo5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libkf5libkleo-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: KDE PIM cryptographic library
  This package contains libkleo, a library for Kleopatra and other parts of KDE
  using certificate-based crypto.
