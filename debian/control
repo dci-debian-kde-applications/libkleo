@@ -15,7 +15,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5pimtextedit-dev (>= 5.2.0~),
                libkf5widgetsaddons-dev (>= 5.19.0~),
                libkf5windowsystem-dev (>= 5.19.0~),
-               libqgpgme7-dev,
+               libgpgmepp-dev | libqgpgme7-dev,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.8
