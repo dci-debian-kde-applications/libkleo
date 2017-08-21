@@ -1,3 +1,6 @@
+etc/xdg/libkleo.categories
+etc/xdg/libkleo.renamecategories
 etc/xdg/libkleopatrarc
 etc/xdg/libkleo.categories
 usr/share/libkleopatra/
+usr/share/locale/
