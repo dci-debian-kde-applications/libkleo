@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.08.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 4:17.08.0 amd64
 libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN16KDHorizontalLine10indentHintEv@Base 4:15.12
  _ZN16KDHorizontalLine10paintEventEP11QPaintEvent@Base 4:15.12
@@ -15,81 +15,77 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN16KDHorizontalLineD0Ev@Base 4:15.12
  _ZN16KDHorizontalLineD1Ev@Base 4:15.12
  _ZN16KDHorizontalLineD2Ev@Base 4:15.12
- _ZN18QGpgMECryptoConfig10runGpgConfEb@Base 4:15.12
- _ZN18QGpgMECryptoConfig11gpgConfPathEv@Base 4:15.12
- _ZN18QGpgMECryptoConfig11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN18QGpgMECryptoConfig11qt_metacastEPKc@Base 4:15.12
- _ZN18QGpgMECryptoConfig16staticMetaObjectE@Base 4:15.12
- _ZN18QGpgMECryptoConfig17slotCollectStdOutEv@Base 4:15.12
- _ZN18QGpgMECryptoConfig4syncEb@Base 4:15.12
- _ZN18QGpgMECryptoConfig5clearEv@Base 4:15.12
- _ZN18QGpgMECryptoConfigC1Ev@Base 4:15.12
- _ZN18QGpgMECryptoConfigC2Ev@Base 4:15.12
- _ZN18QGpgMECryptoConfigD0Ev@Base 4:15.12
- _ZN18QGpgMECryptoConfigD1Ev@Base 4:15.12
- _ZN18QGpgMECryptoConfigD2Ev@Base 4:15.12
- _ZN21QGpgMENewCryptoConfig19reloadConfigurationEb@Base 4:15.12
- _ZN21QGpgMENewCryptoConfig4syncEb@Base 4:15.12
- _ZN21QGpgMENewCryptoConfig5clearEv@Base 4:15.12
- _ZN21QGpgMENewCryptoConfigC1Ev@Base 4:15.12
- _ZN21QGpgMENewCryptoConfigC2Ev@Base 4:15.12
- _ZN21QGpgMENewCryptoConfigD0Ev@Base 4:15.12
- _ZN21QGpgMENewCryptoConfigD1Ev@Base 4:15.12
- _ZN21QGpgMENewCryptoConfigD2Ev@Base 4:15.12
- _ZN4Kleo10DecryptJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4Kleo10DecryptJob11qt_metacastEPKc@Base 4:15.12
- _ZN4Kleo10DecryptJob16staticMetaObjectE@Base 4:15.12
- _ZN4Kleo10DecryptJob6resultERKN5GpgME16DecryptionResultERK10QByteArrayRK7QStringRKNS1_5ErrorE@Base 4:15.12
- _ZN4Kleo10DecryptJobC1EP7QObject@Base 4:15.12
- _ZN4Kleo10DecryptJobC2EP7QObject@Base 4:15.12
- _ZN4Kleo10DecryptJobD0Ev@Base 4:15.12
- _ZN4Kleo10DecryptJobD1Ev@Base 4:15.12
- _ZN4Kleo10DecryptJobD2Ev@Base 4:15.12
- _ZN4Kleo10EncryptJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4Kleo10EncryptJob11qt_metacastEPKc@Base 4:15.12
- _ZN4Kleo10EncryptJob16staticMetaObjectE@Base 4:15.12
- _ZN4Kleo10EncryptJob6resultERKN5GpgME16EncryptionResultERK10QByteArrayRK7QStringRKNS1_5ErrorE@Base 4:15.12
- _ZN4Kleo10EncryptJobC1EP7QObject@Base 4:15.12
- _ZN4Kleo10EncryptJobC2EP7QObject@Base 4:15.12
- _ZN4Kleo10EncryptJobD0Ev@Base 4:15.12
- _ZN4Kleo10EncryptJobD1Ev@Base 4:15.12
- _ZN4Kleo10EncryptJobD2Ev@Base 4:15.12
- _ZN4Kleo10MessageBox11informationEP7QWidgetRKN5GpgME13SigningResultEPKNS_3JobE6QFlagsIN11KMessageBox6OptionEE@Base 4:15.12
- _ZN4Kleo10MessageBox11informationEP7QWidgetRKN5GpgME13SigningResultEPKNS_3JobERK7QString6QFlagsIN11KMessageBox6OptionEE@Base 4:15.12
- _ZN4Kleo10MessageBox11informationEP7QWidgetRKN5GpgME13SigningResultERKNS3_16EncryptionResultEPKNS_3JobE6QFlagsIN11KMessageBox6OptionEE@Base 4:15.12
- _ZN4Kleo10MessageBox11informationEP7QWidgetRKN5GpgME13SigningResultERKNS3_16EncryptionResultEPKNS_3JobERK7QString6QFlagsIN11KMessageBox6OptionEE@Base 4:15.12
- _ZN4Kleo10MessageBox11informationEP7QWidgetRKN5GpgME16EncryptionResultEPKNS_3JobE6QFlagsIN11KMessageBox6OptionEE@Base 4:15.12
- _ZN4Kleo10MessageBox11informationEP7QWidgetRKN5GpgME16EncryptionResultEPKNS_3JobERK7QString6QFlagsIN11KMessageBox6OptionEE@Base 4:15.12
- _ZN4Kleo10MessageBox18showAuditLogButtonEPKNS_3JobE@Base 4:15.12
- _ZN4Kleo10MessageBox4makeEP7QWidgetN11QMessageBox4IconERK7QStringPKNS_3JobES7_6QFlagsIN11KMessageBox6OptionEE@Base 4:15.12
- _ZN4Kleo10MessageBox5errorEP7QWidgetRKN5GpgME13SigningResultEPKNS_3JobE6QFlagsIN11KMessageBox6OptionEE@Base 4:15.12
- _ZN4Kleo10MessageBox5errorEP7QWidgetRKN5GpgME13SigningResultEPKNS_3JobERK7QString6QFlagsIN11KMessageBox6OptionEE@Base 4:15.12
- _ZN4Kleo10MessageBox5errorEP7QWidgetRKN5GpgME13SigningResultERKNS3_16EncryptionResultEPKNS_3JobE6QFlagsIN11KMessageBox6OptionEE@Base 4:15.12
- _ZN4Kleo10MessageBox5errorEP7QWidgetRKN5GpgME13SigningResultERKNS3_16EncryptionResultEPKNS_3JobERK7QString6QFlagsIN11KMessageBox6OptionEE@Base 4:15.12
- _ZN4Kleo10MessageBox5errorEP7QWidgetRKN5GpgME16EncryptionResultEPKNS_3JobE6QFlagsIN11KMessageBox6OptionEE@Base 4:15.12
- _ZN4Kleo10MessageBox5errorEP7QWidgetRKN5GpgME16EncryptionResultEPKNS_3JobERK7QString6QFlagsIN11KMessageBox6OptionEE@Base 4:15.12
- _ZN4Kleo10MessageBox8auditLogEP7QWidgetPKNS_3JobE@Base 4:15.12
- _ZN4Kleo10MessageBox8auditLogEP7QWidgetPKNS_3JobERK7QString@Base 4:15.12
+ _ZN4Kleo10Formatting10iconForUidERKN5GpgME6UserIDE@Base 4:17.08.0
+ _ZN4Kleo10Formatting10prettyNameERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting10prettyNameERKN5GpgME6UserID9SignatureE@Base 4:17.08.0
+ _ZN4Kleo10Formatting10prettyNameERKN5GpgME6UserIDE@Base 4:17.08.0
+ _ZN4Kleo10Formatting10prettyNameEiPKcS2_S2_@Base 4:17.08.0
+ _ZN4Kleo10Formatting11displayNameEN5GpgME8ProtocolE@Base 4:17.08.0
+ _ZN4Kleo10Formatting11prettyEMailEPKcS2_@Base 4:17.08.0
+ _ZN4Kleo10Formatting11prettyEMailERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting11prettyEMailERKN5GpgME6UserID9SignatureE@Base 4:17.08.0
+ _ZN4Kleo10Formatting11prettyEMailERKN5GpgME6UserIDE@Base 4:17.08.0
+ _ZN4Kleo10Formatting11prettyKeyIDEPKc@Base 4:17.08.0
+ _ZN4Kleo10Formatting11summaryLineERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting11usageStringERKN5GpgME6SubkeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting12creationDateERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting12creationDateERKN5GpgME6SubkeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting12creationDateERKN5GpgME6UserID9SignatureE@Base 4:17.08.0
+ _ZN4Kleo10Formatting12prettyUserIDERKN5GpgME6UserIDE@Base 4:17.08.0
+ _ZN4Kleo10Formatting13formatKeyLinkERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting13validityShortERKN5GpgME6SubkeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting13validityShortERKN5GpgME6UserID9SignatureE@Base 4:17.08.0
+ _ZN4Kleo10Formatting13validityShortERKN5GpgME6UserIDE@Base 4:17.08.0
+ _ZN4Kleo10Formatting14complianceModeEv@Base 4:17.08.0
+ _ZN4Kleo10Formatting14expirationDateERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting14expirationDateERKN5GpgME6SubkeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting14expirationDateERKN5GpgME6UserID9SignatureE@Base 4:17.08.0
+ _ZN4Kleo10Formatting14formatOverviewERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting14importMetaDataERKN5GpgME6ImportE@Base 4:17.08.0
+ _ZN4Kleo10Formatting14importMetaDataERKN5GpgME6ImportERK11QStringList@Base 4:17.08.0
+ _ZN4Kleo10Formatting15ownerTrustShortEN5GpgME3Key10OwnerTrustE@Base 4:17.08.0
+ _ZN4Kleo10Formatting15ownerTrustShortERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting15summaryToStringEN5GpgME9Signature7SummaryE@Base 4:17.08.0
+ _ZN4Kleo10Formatting17formatForComboBoxERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting17signatureToStringERKN5GpgME9SignatureERKNS1_3KeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting18creationDateStringERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting18creationDateStringERKN5GpgME6SubkeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting18creationDateStringERKN5GpgME6UserID9SignatureE@Base 4:17.08.0
+ _ZN4Kleo10Formatting18prettyNameAndEMailERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting18prettyNameAndEMailERKN5GpgME6UserIDE@Base 4:17.08.0
+ _ZN4Kleo10Formatting18prettyNameAndEMailEiPKcS2_S2_S2_@Base 4:17.08.0
+ _ZN4Kleo10Formatting18prettyNameAndEMailEiRK7QStringS3_S3_S3_@Base 4:17.08.0
+ _ZN4Kleo10Formatting20expirationDateStringERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting20expirationDateStringERKN5GpgME6SubkeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting20expirationDateStringERKN5GpgME6UserID9SignatureE@Base 4:17.08.0
+ _ZN4Kleo10Formatting20uidsHaveFullValidityERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting21complianceStringShortERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting22complianceStringForKeyERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting4typeERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting4typeERKN5GpgME6SubkeyE@Base 4:17.08.0
+ _ZN4Kleo10Formatting7toolTipERKN5GpgME3KeyEi@Base 4:17.08.0
+ _ZN4Kleo10Formatting8validityERKN5GpgME6UserIDE@Base 4:17.08.0
+ _ZN4Kleo10Formatting9isKeyDeVsERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10MessageBox11informationEP7QWidgetRKN5GpgME13SigningResultEPKN6QGpgME3JobE6QFlagsIN11KMessageBox6OptionEE@Base 4:17.08.0
+ _ZN4Kleo10MessageBox11informationEP7QWidgetRKN5GpgME13SigningResultEPKN6QGpgME3JobERK7QString6QFlagsIN11KMessageBox6OptionEE@Base 4:17.08.0
+ _ZN4Kleo10MessageBox11informationEP7QWidgetRKN5GpgME13SigningResultERKNS3_16EncryptionResultEPKN6QGpgME3JobE6QFlagsIN11KMessageBox6OptionEE@Base 4:17.08.0
+ _ZN4Kleo10MessageBox11informationEP7QWidgetRKN5GpgME13SigningResultERKNS3_16EncryptionResultEPKN6QGpgME3JobERK7QString6QFlagsIN11KMessageBox6OptionEE@Base 4:17.08.0
+ _ZN4Kleo10MessageBox11informationEP7QWidgetRKN5GpgME16EncryptionResultEPKN6QGpgME3JobE6QFlagsIN11KMessageBox6OptionEE@Base 4:17.08.0
+ _ZN4Kleo10MessageBox11informationEP7QWidgetRKN5GpgME16EncryptionResultEPKN6QGpgME3JobERK7QString6QFlagsIN11KMessageBox6OptionEE@Base 4:17.08.0
+ _ZN4Kleo10MessageBox18showAuditLogButtonEPKN6QGpgME3JobE@Base 4:17.08.0
+ _ZN4Kleo10MessageBox4makeEP7QWidgetN11QMessageBox4IconERK7QStringPKN6QGpgME3JobES7_6QFlagsIN11KMessageBox6OptionEE@Base 4:17.08.0
+ _ZN4Kleo10MessageBox5errorEP7QWidgetRKN5GpgME13SigningResultEPKN6QGpgME3JobE6QFlagsIN11KMessageBox6OptionEE@Base 4:17.08.0
+ _ZN4Kleo10MessageBox5errorEP7QWidgetRKN5GpgME13SigningResultEPKN6QGpgME3JobERK7QString6QFlagsIN11KMessageBox6OptionEE@Base 4:17.08.0
+ _ZN4Kleo10MessageBox5errorEP7QWidgetRKN5GpgME13SigningResultERKNS3_16EncryptionResultEPKN6QGpgME3JobE6QFlagsIN11KMessageBox6OptionEE@Base 4:17.08.0
+ _ZN4Kleo10MessageBox5errorEP7QWidgetRKN5GpgME13SigningResultERKNS3_16EncryptionResultEPKN6QGpgME3JobERK7QString6QFlagsIN11KMessageBox6OptionEE@Base 4:17.08.0
+ _ZN4Kleo10MessageBox5errorEP7QWidgetRKN5GpgME16EncryptionResultEPKN6QGpgME3JobE6QFlagsIN11KMessageBox6OptionEE@Base 4:17.08.0
+ _ZN4Kleo10MessageBox5errorEP7QWidgetRKN5GpgME16EncryptionResultEPKN6QGpgME3JobERK7QString6QFlagsIN11KMessageBox6OptionEE@Base 4:17.08.0
+ _ZN4Kleo10MessageBox8auditLogEP7QWidgetPKN6QGpgME3JobE@Base 4:17.08.0
+ _ZN4Kleo10MessageBox8auditLogEP7QWidgetPKN6QGpgME3JobERK7QString@Base 4:17.08.0
  _ZN4Kleo10MessageBox8auditLogEP7QWidgetRK7QString@Base 4:15.12
  _ZN4Kleo10MessageBox8auditLogEP7QWidgetRK7QStringS5_@Base 4:15.12
- _ZN4Kleo10SignKeyJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4Kleo10SignKeyJob11qt_metacastEPKc@Base 4:15.12
- _ZN4Kleo10SignKeyJob16staticMetaObjectE@Base 4:15.12
- _ZN4Kleo10SignKeyJob6resultERKN5GpgME5ErrorERK7QStringS4_@Base 4:15.12
- _ZN4Kleo10SignKeyJobC1EP7QObject@Base 4:15.12
- _ZN4Kleo10SignKeyJobC2EP7QObject@Base 4:15.12
- _ZN4Kleo10SignKeyJobD0Ev@Base 4:15.12
- _ZN4Kleo10SignKeyJobD1Ev@Base 4:15.12
- _ZN4Kleo10SignKeyJobD2Ev@Base 4:15.12
- _ZN4Kleo11DownloadJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4Kleo11DownloadJob11qt_metacastEPKc@Base 4:15.12
- _ZN4Kleo11DownloadJob16staticMetaObjectE@Base 4:15.12
- _ZN4Kleo11DownloadJob6resultERKN5GpgME5ErrorERK10QByteArrayRK7QStringS4_@Base 4:15.12
- _ZN4Kleo11DownloadJobC1EP7QObject@Base 4:15.12
- _ZN4Kleo11DownloadJobC2EP7QObject@Base 4:15.12
- _ZN4Kleo11DownloadJobD0Ev@Base 4:15.12
- _ZN4Kleo11DownloadJobD1Ev@Base 4:15.12
- _ZN4Kleo11DownloadJobD2Ev@Base 4:15.12
+ _ZN4Kleo10trustLevelERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo10trustLevelERKN5GpgME6UserIDE@Base 4:17.08.0
  _ZN4Kleo11KeyListView10slotAddKeyERKN5GpgME3KeyE@Base 4:15.12
  _ZN4Kleo11KeyListView11contextMenuEPNS_15KeyListViewItemERK6QPoint@Base 4:15.12
  _ZN4Kleo11KeyListView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
@@ -136,15 +132,6 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN4Kleo11ProgressBar8setValueEi@Base 4:15.12
  _ZN4Kleo11ProgressBarC1EP7QWidget@Base 4:15.12
  _ZN4Kleo11ProgressBarC2EP7QWidget@Base 4:15.12
- _ZN4Kleo12AddUserIDJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4Kleo12AddUserIDJob11qt_metacastEPKc@Base 4:15.12
- _ZN4Kleo12AddUserIDJob16staticMetaObjectE@Base 4:15.12
- _ZN4Kleo12AddUserIDJob6resultERKN5GpgME5ErrorERK7QStringS4_@Base 4:15.12
- _ZN4Kleo12AddUserIDJobC1EP7QObject@Base 4:15.12
- _ZN4Kleo12AddUserIDJobC2EP7QObject@Base 4:15.12
- _ZN4Kleo12AddUserIDJobD0Ev@Base 4:15.12
- _ZN4Kleo12AddUserIDJobD1Ev@Base 4:15.12
- _ZN4Kleo12AddUserIDJobD2Ev@Base 4:15.12
  _ZN4Kleo12KeyRequester10updateKeysEv@Base 4:15.12
  _ZN4Kleo12KeyRequester11eraseButtonEv@Base 4:15.12
  _ZN4Kleo12KeyRequester11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
@@ -174,82 +161,48 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN4Kleo12KeyRequesterD0Ev@Base 4:15.12
  _ZN4Kleo12KeyRequesterD1Ev@Base 4:15.12
  _ZN4Kleo12KeyRequesterD2Ev@Base 4:15.12
- _ZN4Kleo14MultiDeleteJob10slotCancelEv@Base 4:15.12
- _ZN4Kleo14MultiDeleteJob10slotResultERKN5GpgME5ErrorE@Base 4:15.12
- _ZN4Kleo14MultiDeleteJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4Kleo14MultiDeleteJob11qt_metacastEPKc@Base 4:15.12
- _ZN4Kleo14MultiDeleteJob16staticMetaObjectE@Base 4:15.12
- _ZN4Kleo14MultiDeleteJob5startERKSt6vectorIN5GpgME3KeyESaIS3_EEb@Base 4:15.12
- _ZN4Kleo14MultiDeleteJob6resultERKN5GpgME5ErrorERKNS1_3KeyE@Base 4:15.12
- _ZN4Kleo14MultiDeleteJob9startAJobEv@Base 4:15.12
- _ZN4Kleo14MultiDeleteJobC1EPKNS_13CryptoBackend8ProtocolE@Base 4:15.12
- _ZN4Kleo14MultiDeleteJobC2EPKNS_13CryptoBackend8ProtocolE@Base 4:15.12
- _ZN4Kleo14MultiDeleteJobD0Ev@Base 4:15.12
- _ZN4Kleo14MultiDeleteJobD1Ev@Base 4:15.12
- _ZN4Kleo14MultiDeleteJobD2Ev@Base 4:15.12
+ _ZN4Kleo13isFingerprintERK7QString@Base 4:17.08.0
  _ZN4Kleo14ProgressDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN4Kleo14ProgressDialog11qt_metacastEPKc@Base 4:15.12
  _ZN4Kleo14ProgressDialog12slotProgressERK7QStringii@Base 4:15.12
  _ZN4Kleo14ProgressDialog16staticMetaObjectE@Base 4:15.12
  _ZN4Kleo14ProgressDialog18setMinimumDurationEi@Base 4:15.12
  _ZN4Kleo14ProgressDialog8slotDoneEv@Base 4:15.12
- _ZN4Kleo14ProgressDialogC1EPNS_3JobERK7QStringP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:15.12
- _ZN4Kleo14ProgressDialogC2EPNS_3JobERK7QStringP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:15.12
+ _ZN4Kleo14ProgressDialogC1EPN6QGpgME3JobERK7QStringP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:17.08.0
+ _ZN4Kleo14ProgressDialogC2EPN6QGpgME3JobERK7QStringP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:17.08.0
  _ZN4Kleo14ProgressDialogD0Ev@Base 4:15.12
  _ZN4Kleo14ProgressDialogD1Ev@Base 4:15.12
  _ZN4Kleo14ProgressDialogD2Ev@Base 4:15.12
+ _ZN4Kleo14findSignaturesERK7QString@Base 4:17.08.0
+ _ZN4Kleo14findSignedDataERK7QString@Base 4:17.08.0
+ _ZN4Kleo14isChecksumFileERK7QString@Base 4:17.08.0
+ _ZN4Kleo14outputFileNameERK7QString@Base 4:17.08.0
  _ZN4Kleo14parseKeyserverERK7QString@Base 4:15.12
- _ZN4Kleo15ChangeExpiryJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4Kleo15ChangeExpiryJob11qt_metacastEPKc@Base 4:15.12
- _ZN4Kleo15ChangeExpiryJob16staticMetaObjectE@Base 4:15.12
- _ZN4Kleo15ChangeExpiryJob6resultERKN5GpgME5ErrorERK7QStringS4_@Base 4:15.12
- _ZN4Kleo15ChangeExpiryJobC1EP7QObject@Base 4:15.12
- _ZN4Kleo15ChangeExpiryJobC2EP7QObject@Base 4:15.12
- _ZN4Kleo15ChangeExpiryJobD0Ev@Base 4:15.12
- _ZN4Kleo15ChangeExpiryJobD1Ev@Base 4:15.12
- _ZN4Kleo15ChangeExpiryJobD2Ev@Base 4:15.12
- _ZN4Kleo15ChangePasswdJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4Kleo15ChangePasswdJob11qt_metacastEPKc@Base 4:15.12
- _ZN4Kleo15ChangePasswdJob16staticMetaObjectE@Base 4:15.12
- _ZN4Kleo15ChangePasswdJob6resultERKN5GpgME5ErrorERK7QStringS4_@Base 4:15.12
- _ZN4Kleo15ChangePasswdJobC1EP7QObject@Base 4:15.12
- _ZN4Kleo15ChangePasswdJobC2EP7QObject@Base 4:15.12
- _ZN4Kleo15ChangePasswdJobD0Ev@Base 4:15.12
- _ZN4Kleo15ChangePasswdJobD1Ev@Base 4:15.12
- _ZN4Kleo15ChangePasswdJobD2Ev@Base 4:15.12
- _ZN4Kleo15VerifyOpaqueJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4Kleo15VerifyOpaqueJob11qt_metacastEPKc@Base 4:15.12
- _ZN4Kleo15VerifyOpaqueJob16staticMetaObjectE@Base 4:15.12
- _ZN4Kleo15VerifyOpaqueJob6resultERKN5GpgME18VerificationResultERK10QByteArrayRK7QStringRKNS1_5ErrorE@Base 4:15.12
- _ZN4Kleo15VerifyOpaqueJobC1EP7QObject@Base 4:15.12
- _ZN4Kleo15VerifyOpaqueJobC2EP7QObject@Base 4:15.12
- _ZN4Kleo15VerifyOpaqueJobD0Ev@Base 4:15.12
- _ZN4Kleo15VerifyOpaqueJobD1Ev@Base 4:15.12
- _ZN4Kleo15VerifyOpaqueJobD2Ev@Base 4:15.12
- _ZN4Kleo16DecryptVerifyJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4Kleo16DecryptVerifyJob11qt_metacastEPKc@Base 4:15.12
- _ZN4Kleo16DecryptVerifyJob16staticMetaObjectE@Base 4:15.12
- _ZN4Kleo16DecryptVerifyJob6resultERKN5GpgME16DecryptionResultERKNS1_18VerificationResultERK10QByteArrayRK7QStringRKNS1_5ErrorE@Base 4:15.12
- _ZN4Kleo16DecryptVerifyJobC1EP7QObject@Base 4:15.12
- _ZN4Kleo16DecryptVerifyJobC2EP7QObject@Base 4:15.12
- _ZN4Kleo16DecryptVerifyJobD0Ev@Base 4:15.12
- _ZN4Kleo16DecryptVerifyJobD1Ev@Base 4:15.12
- _ZN4Kleo16DecryptVerifyJobD2Ev@Base 4:15.12
+ _ZN4Kleo15SubkeyListModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN4Kleo15SubkeyListModel11qt_metacastEPKc@Base 4:17.08.0
+ _ZN4Kleo15SubkeyListModel16staticMetaObjectE@Base 4:17.08.0
+ _ZN4Kleo15SubkeyListModel5clearEv@Base 4:17.08.0
+ _ZN4Kleo15SubkeyListModel6setKeyERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo15SubkeyListModelC1EP7QObject@Base 4:17.08.0
+ _ZN4Kleo15SubkeyListModelC2EP7QObject@Base 4:17.08.0
+ _ZN4Kleo15SubkeyListModelD0Ev@Base 4:17.08.0
+ _ZN4Kleo15SubkeyListModelD1Ev@Base 4:17.08.0
+ _ZN4Kleo15SubkeyListModelD2Ev@Base 4:17.08.0
+ _ZN4Kleo15UserIDListModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN4Kleo15UserIDListModel11qt_metacastEPKc@Base 4:17.08.0
+ _ZN4Kleo15UserIDListModel16staticMetaObjectE@Base 4:17.08.0
+ _ZN4Kleo15UserIDListModel6setKeyERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo15UserIDListModelC1EP7QObject@Base 4:17.08.0
+ _ZN4Kleo15UserIDListModelC2EP7QObject@Base 4:17.08.0
+ _ZN4Kleo15UserIDListModelD0Ev@Base 4:17.08.0
+ _ZN4Kleo15UserIDListModelD1Ev@Base 4:17.08.0
+ _ZN4Kleo15UserIDListModelD2Ev@Base 4:17.08.0
+ _ZN4Kleo15classifyContentERK10QByteArray@Base 4:17.08.0
  _ZN4Kleo16DefaultKeyFilterC1Ev@Base 4:16.08.0
  _ZN4Kleo16DefaultKeyFilterC2Ev@Base 4:16.08.0
  _ZN4Kleo16DefaultKeyFilterD0Ev@Base 4:16.08.0
  _ZN4Kleo16DefaultKeyFilterD1Ev@Base 4:16.08.0
  _ZN4Kleo16DefaultKeyFilterD2Ev@Base 4:16.08.0
- _ZN4Kleo16GnuPGProcessBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4Kleo16GnuPGProcessBase11qt_metacastEPKc@Base 4:15.12
- _ZN4Kleo16GnuPGProcessBase14setUseStatusFDEb@Base 4:15.12
- _ZN4Kleo16GnuPGProcessBase16staticMetaObjectE@Base 4:15.12
- _ZN4Kleo16GnuPGProcessBase6statusEPS0_RK7QStringRK11QStringList@Base 4:15.12
- _ZN4Kleo16GnuPGProcessBaseC1EP7QObject@Base 4:15.12
- _ZN4Kleo16GnuPGProcessBaseC2EP7QObject@Base 4:15.12
- _ZN4Kleo16GnuPGProcessBaseD0Ev@Base 4:15.12
- _ZN4Kleo16GnuPGProcessBaseD1Ev@Base 4:15.12
- _ZN4Kleo16GnuPGProcessBaseD2Ev@Base 4:15.12
  _ZN4Kleo16KeyFilterManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN4Kleo16KeyFilterManager11qt_metacastEPKc@Base 4:15.12
  _ZN4Kleo16KeyFilterManager16staticMetaObjectE@Base 4:15.12
@@ -261,15 +214,6 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN4Kleo16KeyFilterManagerD0Ev@Base 4:15.12
  _ZN4Kleo16KeyFilterManagerD1Ev@Base 4:15.12
  _ZN4Kleo16KeyFilterManagerD2Ev@Base 4:15.12
- _ZN4Kleo16KeyForMailboxJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.08.0
- _ZN4Kleo16KeyForMailboxJob11qt_metacastEPKc@Base 4:16.08.0
- _ZN4Kleo16KeyForMailboxJob16staticMetaObjectE@Base 4:16.08.0
- _ZN4Kleo16KeyForMailboxJob6resultERKN5GpgME13KeyListResultERKNS1_3KeyERKNS1_6UserIDERK7QStringRKNS1_5ErrorE@Base 4:16.08.0
- _ZN4Kleo16KeyForMailboxJobC1EP7QObject@Base 4:16.08.0
- _ZN4Kleo16KeyForMailboxJobC2EP7QObject@Base 4:16.08.0
- _ZN4Kleo16KeyForMailboxJobD0Ev@Base 4:16.08.0
- _ZN4Kleo16KeyForMailboxJobD1Ev@Base 4:16.08.0
- _ZN4Kleo16KeyForMailboxJobD2Ev@Base 4:16.08.0
  _ZN4Kleo17DNAttributeMapper17setAttributeOrderERK11QStringList@Base 4:15.12
  _ZN4Kleo17DNAttributeMapper5mSelfE@Base 4:15.12
  _ZN4Kleo17DNAttributeMapper7PrivateC1Ev@Base 4:15.12
@@ -295,6 +239,34 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN4Kleo17FileNameRequesterD0Ev@Base 4:15.12
  _ZN4Kleo17FileNameRequesterD1Ev@Base 4:15.12
  _ZN4Kleo17FileNameRequesterD2Ev@Base 4:15.12
+ _ZN4Kleo17FileSystemWatcher10removePathERK7QString@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher10setEnabledEb@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher11fileChangedERK7QString@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher11qt_metacastEPKc@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher11removePathsERK11QStringList@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher14blacklistFilesERK11QStringList@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher14whitelistFilesERK11QStringList@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher16directoryChangedERK7QString@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher16staticMetaObjectE@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher7Private11handleTimerEv@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher7Private13onFileChangedERK7QString@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher7Private14connectWatcherEv@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher7Private18onDirectoryChangedERK7QString@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher7Private9onTimeoutEv@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher7PrivateC1EPS0_RK11QStringList@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher7PrivateC2EPS0_RK11QStringList@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher7addPathERK7QString@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher8addPathsERK11QStringList@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher8setDelayEi@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcher9triggeredEv@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcherC1EP7QObject@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcherC1ERK11QStringListP7QObject@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcherC2EP7QObject@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcherC2ERK11QStringListP7QObject@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcherD0Ev@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcherD1Ev@Base 4:17.08.0
+ _ZN4Kleo17FileSystemWatcherD2Ev@Base 4:17.08.0
  _ZN4Kleo17KeyApprovalDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN4Kleo17KeyApprovalDialog11qt_metacastEPKc@Base 4:15.12
  _ZN4Kleo17KeyApprovalDialog16slotPrefsChangedEv@Base 4:15.12
@@ -304,13 +276,33 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN4Kleo17KeyApprovalDialogD0Ev@Base 4:15.12
  _ZN4Kleo17KeyApprovalDialogD1Ev@Base 4:15.12
  _ZN4Kleo17KeyApprovalDialogD2Ev@Base 4:15.12
+ _ZN4Kleo17KeySelectionCombo11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionCombo11qt_metacastEPKc@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionCombo11refreshKeysEv@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionCombo11setIdFilterERK7QString@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionCombo12setKeyFilterERKSt10shared_ptrIKNS_9KeyFilterEE@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionCombo13setCurrentKeyERK7QString@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionCombo13setCurrentKeyERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionCombo13setDefaultKeyERK7QString@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionCombo16appendCustomItemERK5QIconRK7QStringRK8QVariant@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionCombo16staticMetaObjectE@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionCombo17currentKeyChangedERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionCombo17prependCustomItemERK5QIconRK7QStringRK8QVariant@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionCombo18customItemSelectedERK8QVariant@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionCombo18keyListingFinishedEv@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionCombo4initEv@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionComboC1EP7QWidget@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionComboC2EP7QWidget@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionComboD0Ev@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionComboD1Ev@Base 4:17.08.0
+ _ZN4Kleo17KeySelectionComboD2Ev@Base 4:17.08.0
  _ZN4Kleo17assembleKeyserverERKNS_15ParsedKeyserverE@Base 4:15.12
  _ZN4Kleo18ChecksumDefinition11installPathEv@Base 4:15.12
  _ZN4Kleo18ChecksumDefinition14setInstallPathERK7QString@Base 4:15.12
  _ZN4Kleo18ChecksumDefinition22getChecksumDefinitionsER11QStringList@Base 4:15.12
  _ZN4Kleo18ChecksumDefinition22getChecksumDefinitionsEv@Base 4:15.12
- _ZN4Kleo18ChecksumDefinition28getDefaultChecksumDefinitionERKSt6vectorIN5boost10shared_ptrIS0_EESaIS4_EE@Base 4:15.12
- _ZN4Kleo18ChecksumDefinition28setDefaultChecksumDefinitionERKN5boost10shared_ptrIS0_EE@Base 4:15.12
+ _ZN4Kleo18ChecksumDefinition28getDefaultChecksumDefinitionERKSt6vectorISt10shared_ptrIS0_ESaIS3_EE@Base 4:17.08.0
+ _ZN4Kleo18ChecksumDefinition28setDefaultChecksumDefinitionERKSt10shared_ptrIS0_E@Base 4:17.08.0
  _ZN4Kleo18ChecksumDefinitionC1ERK7QStringS3_S3_RK11QStringList@Base 4:15.12
  _ZN4Kleo18ChecksumDefinitionC2ERK7QStringS3_S3_RK11QStringList@Base 4:15.12
  _ZN4Kleo18ChecksumDefinitionD0Ev@Base 4:15.12
@@ -325,8 +317,8 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN4Kleo18CryptoConfigDialog6slotOkEv@Base 4:15.12
  _ZN4Kleo18CryptoConfigDialog9slotApplyEv@Base 4:15.12
  _ZN4Kleo18CryptoConfigDialog9slotUser1Ev@Base 4:15.12
- _ZN4Kleo18CryptoConfigDialogC1EPNS_12CryptoConfigEP7QWidget@Base 4:15.12
- _ZN4Kleo18CryptoConfigDialogC2EPNS_12CryptoConfigEP7QWidget@Base 4:15.12
+ _ZN4Kleo18CryptoConfigDialogC1EPN6QGpgME12CryptoConfigEP7QWidget@Base 4:17.08.0
+ _ZN4Kleo18CryptoConfigDialogC2EPN6QGpgME12CryptoConfigEP7QWidget@Base 4:17.08.0
  _ZN4Kleo18CryptoConfigModule11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN4Kleo18CryptoConfigModule11qt_metacastEPKc@Base 4:15.12
  _ZN4Kleo18CryptoConfigModule16staticMetaObjectE@Base 4:15.12
@@ -336,10 +328,10 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN4Kleo18CryptoConfigModule6cancelEv@Base 4:15.12
  _ZN4Kleo18CryptoConfigModule7changedEv@Base 4:15.12
  _ZN4Kleo18CryptoConfigModule8defaultsEv@Base 4:15.12
- _ZN4Kleo18CryptoConfigModuleC1EPNS_12CryptoConfigENS0_6LayoutEP7QWidget@Base 4:15.12
- _ZN4Kleo18CryptoConfigModuleC1EPNS_12CryptoConfigEP7QWidget@Base 4:15.12
- _ZN4Kleo18CryptoConfigModuleC2EPNS_12CryptoConfigENS0_6LayoutEP7QWidget@Base 4:15.12
- _ZN4Kleo18CryptoConfigModuleC2EPNS_12CryptoConfigEP7QWidget@Base 4:15.12
+ _ZN4Kleo18CryptoConfigModuleC1EPN6QGpgME12CryptoConfigENS0_6LayoutEP7QWidget@Base 4:17.08.0
+ _ZN4Kleo18CryptoConfigModuleC1EPN6QGpgME12CryptoConfigEP7QWidget@Base 4:17.08.0
+ _ZN4Kleo18CryptoConfigModuleC2EPN6QGpgME12CryptoConfigENS0_6LayoutEP7QWidget@Base 4:17.08.0
+ _ZN4Kleo18CryptoConfigModuleC2EPN6QGpgME12CryptoConfigEP7QWidget@Base 4:17.08.0
  _ZN4Kleo18KeySelectionDialog10slotCancelEv@Base 4:15.12
  _ZN4Kleo18KeySelectionDialog10slotFilterEv@Base 4:15.12
  _ZN4Kleo18KeySelectionDialog10slotSearchERK7QString@Base 4:15.12
@@ -358,7 +350,7 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN4Kleo18KeySelectionDialog18filterByKeyIDOrUIDERK7QString@Base 4:15.12
  _ZN4Kleo18KeySelectionDialog18slotCheckSelectionEPNS_15KeyListViewItemE@Base 4:15.12
  _ZN4Kleo18KeySelectionDialog20slotSelectionChangedEv@Base 4:15.12
- _ZN4Kleo18KeySelectionDialog25startKeyListJobForBackendEPKNS_13CryptoBackend8ProtocolERKSt6vectorIN5GpgME3KeyESaIS7_EEb@Base 4:15.12
+ _ZN4Kleo18KeySelectionDialog25startKeyListJobForBackendEPKN6QGpgME8ProtocolERKSt6vectorIN5GpgME3KeyESaIS7_EEb@Base 4:17.08.0
  _ZN4Kleo18KeySelectionDialog25startValidatingKeyListingEv@Base 4:15.12
  _ZN4Kleo18KeySelectionDialog27slotStartCertificateManagerERK7QString@Base 4:15.12
  _ZN4Kleo18KeySelectionDialog4initEbbRK7QStringS3_@Base 4:15.12
@@ -374,15 +366,6 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN4Kleo18KeySelectionDialogD0Ev@Base 4:15.12
  _ZN4Kleo18KeySelectionDialogD1Ev@Base 4:15.12
  _ZN4Kleo18KeySelectionDialogD2Ev@Base 4:15.12
- _ZN4Kleo19ChangeOwnerTrustJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4Kleo19ChangeOwnerTrustJob11qt_metacastEPKc@Base 4:15.12
- _ZN4Kleo19ChangeOwnerTrustJob16staticMetaObjectE@Base 4:15.12
- _ZN4Kleo19ChangeOwnerTrustJob6resultERKN5GpgME5ErrorERK7QStringS4_@Base 4:15.12
- _ZN4Kleo19ChangeOwnerTrustJobC1EP7QObject@Base 4:15.12
- _ZN4Kleo19ChangeOwnerTrustJobC2EP7QObject@Base 4:15.12
- _ZN4Kleo19ChangeOwnerTrustJobD0Ev@Base 4:15.12
- _ZN4Kleo19ChangeOwnerTrustJobD1Ev@Base 4:15.12
- _ZN4Kleo19ChangeOwnerTrustJobD2Ev@Base 4:15.12
  _ZN4Kleo19SigningKeyRequester11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN4Kleo19SigningKeyRequester11qt_metacastEPKc@Base 4:15.12
  _ZN4Kleo19SigningKeyRequester12virtual_hookEiPv@Base 4:15.12
@@ -395,21 +378,28 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN4Kleo19SigningKeyRequesterD0Ev@Base 4:15.12
  _ZN4Kleo19SigningKeyRequesterD1Ev@Base 4:15.12
  _ZN4Kleo19SigningKeyRequesterD2Ev@Base 4:15.12
- _ZN4Kleo20CryptoBackendFactory10readConfigEv@Base 4:15.12
- _ZN4Kleo20CryptoBackendFactory11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4Kleo20CryptoBackendFactory11qt_metacastEPKc@Base 4:15.12
- _ZN4Kleo20CryptoBackendFactory15scanForBackendsEP11QStringList@Base 4:15.12
- _ZN4Kleo20CryptoBackendFactory15setSMIMEBackendEPKNS_13CryptoBackendE@Base 4:15.12
- _ZN4Kleo20CryptoBackendFactory16staticMetaObjectE@Base 4:15.12
- _ZN4Kleo20CryptoBackendFactory17setOpenPGPBackendEPKNS_13CryptoBackendE@Base 4:15.12
- _ZN4Kleo20CryptoBackendFactory18setProtocolBackendEPKcPKNS_13CryptoBackendE@Base 4:15.12
- _ZN4Kleo20CryptoBackendFactory5mSelfE@Base 4:15.12
- _ZN4Kleo20CryptoBackendFactory8instanceEv@Base 4:15.12
- _ZN4Kleo20CryptoBackendFactoryC1Ev@Base 4:15.12
- _ZN4Kleo20CryptoBackendFactoryC2Ev@Base 4:15.12
- _ZN4Kleo20CryptoBackendFactoryD0Ev@Base 4:15.12
- _ZN4Kleo20CryptoBackendFactoryD1Ev@Base 4:15.12
- _ZN4Kleo20CryptoBackendFactoryD2Ev@Base 4:15.12
+ _ZN4Kleo19outputFileExtensionEjb@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModel11qt_metacastEPKc@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModel11useKeyCacheEbb@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModel16staticMetaObjectE@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModel17rowAboutToBeMovedERK11QModelIndexi@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModel17setToolTipOptionsEi@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModel22createFlatKeyListModelEP7QObject@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModel30createHierarchicalKeyListModelEP7QObject@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModel5clearEv@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModel6addKeyERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModel7addKeysERKSt6vectorIN5GpgME3KeyESaIS3_EE@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModel7setKeysERKSt6vectorIN5GpgME3KeyESaIS3_EE@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModel8rowMovedERK11QModelIndexi@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModel9removeKeyERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModelC1EP7QObject@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModelC2EP7QObject@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModelD0Ev@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModelD1Ev@Base 4:17.08.0
+ _ZN4Kleo20AbstractKeyListModelD2Ev@Base 4:17.08.0
+ _ZN4Kleo21KConfigBasedKeyFilterC1ERK12KConfigGroup@Base 4:17.08.0
+ _ZN4Kleo21KConfigBasedKeyFilterC2ERK12KConfigGroup@Base 4:17.08.0
  _ZN4Kleo22EncryptionKeyRequester11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN4Kleo22EncryptionKeyRequester11qt_metacastEPKc@Base 4:15.12
  _ZN4Kleo22EncryptionKeyRequester12virtual_hookEiPv@Base 4:15.12
@@ -422,20 +412,19 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN4Kleo22EncryptionKeyRequesterD0Ev@Base 4:15.12
  _ZN4Kleo22EncryptionKeyRequesterD1Ev@Base 4:15.12
  _ZN4Kleo22EncryptionKeyRequesterD2Ev@Base 4:15.12
- _ZN4Kleo22HierarchicalKeyListJob10slotCancelEv@Base 4:15.12
- _ZN4Kleo22HierarchicalKeyListJob10slotResultERKN5GpgME13KeyListResultE@Base 4:15.12
- _ZN4Kleo22HierarchicalKeyListJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4Kleo22HierarchicalKeyListJob11qt_metacastEPKc@Base 4:15.12
- _ZN4Kleo22HierarchicalKeyListJob11slotNextKeyERKN5GpgME3KeyE@Base 4:15.12
- _ZN4Kleo22HierarchicalKeyListJob16staticMetaObjectE@Base 4:15.12
- _ZN4Kleo22HierarchicalKeyListJob4execERK11QStringListbRSt6vectorIN5GpgME3KeyESaIS6_EE@Base 4:15.12
- _ZN4Kleo22HierarchicalKeyListJob5startERK11QStringListb@Base 4:15.12
- _ZN4Kleo22HierarchicalKeyListJob9startAJobEv@Base 4:15.12
- _ZN4Kleo22HierarchicalKeyListJobC1EPKNS_13CryptoBackend8ProtocolEbbb@Base 4:15.12
- _ZN4Kleo22HierarchicalKeyListJobC2EPKNS_13CryptoBackend8ProtocolEbbb@Base 4:15.12
- _ZN4Kleo22HierarchicalKeyListJobD0Ev@Base 4:15.12
- _ZN4Kleo22HierarchicalKeyListJobD1Ev@Base 4:15.12
- _ZN4Kleo22HierarchicalKeyListJobD2Ev@Base 4:15.12
+ _ZN4Kleo23DefaultKeyGenerationJob10slotCancelEv@Base 4:17.08.0
+ _ZN4Kleo23DefaultKeyGenerationJob11eventFilterEP7QObjectP6QEvent@Base 4:17.08.0
+ _ZN4Kleo23DefaultKeyGenerationJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN4Kleo23DefaultKeyGenerationJob11qt_metacastEPKc@Base 4:17.08.0
+ _ZN4Kleo23DefaultKeyGenerationJob13setPassphraseERK7QString@Base 4:17.08.0
+ _ZN4Kleo23DefaultKeyGenerationJob16staticMetaObjectE@Base 4:17.08.0
+ _ZN4Kleo23DefaultKeyGenerationJob5startERK7QStringS3_@Base 4:17.08.0
+ _ZN4Kleo23DefaultKeyGenerationJob6resultERKN5GpgME19KeyGenerationResultERK10QByteArrayRK7QStringRKNS1_5ErrorE@Base 4:17.08.0
+ _ZN4Kleo23DefaultKeyGenerationJobC1EP7QObject@Base 4:17.08.0
+ _ZN4Kleo23DefaultKeyGenerationJobC2EP7QObject@Base 4:17.08.0
+ _ZN4Kleo23DefaultKeyGenerationJobD0Ev@Base 4:17.08.0
+ _ZN4Kleo23DefaultKeyGenerationJobD1Ev@Base 4:17.08.0
+ _ZN4Kleo23DefaultKeyGenerationJobD2Ev@Base 4:17.08.0
  _ZN4Kleo23DirectoryServicesWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN4Kleo23DirectoryServicesWidget11qt_metacastEPKc@Base 4:15.12
  _ZN4Kleo23DirectoryServicesWidget15addX509ServicesERK5QListI4QUrlE@Base 4:15.12
@@ -445,17 +434,28 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN4Kleo23DirectoryServicesWidget19setAllowedProtocolsE6QFlagsINS0_8ProtocolEE@Base 4:15.12
  _ZN4Kleo23DirectoryServicesWidget20setReadOnlyProtocolsE6QFlagsINS0_8ProtocolEE@Base 4:15.12
  _ZN4Kleo23DirectoryServicesWidget5clearEv@Base 4:15.12
- _ZN4Kleo23DirectoryServicesWidget7Private15showHideColumnsEv@Base 4:15.12
  _ZN4Kleo23DirectoryServicesWidget7changedEv@Base 4:15.12
  _ZN4Kleo23DirectoryServicesWidgetC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:15.12
  _ZN4Kleo23DirectoryServicesWidgetC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@Base 4:15.12
  _ZN4Kleo23DirectoryServicesWidgetD0Ev@Base 4:15.12
  _ZN4Kleo23DirectoryServicesWidgetD1Ev@Base 4:15.12
  _ZN4Kleo23DirectoryServicesWidgetD2Ev@Base 4:15.12
+ _ZN4Kleo23printableClassificationEj@Base 4:17.08.0
  _ZN4Kleo24signingPreferenceToLabelENS_17SigningPreferenceE@Base 4:15.12
  _ZN4Kleo25signingPreferenceToStringENS_17SigningPreferenceE@Base 4:15.12
  _ZN4Kleo25stringToSigningPreferenceERK7QString@Base 4:15.12
  _ZN4Kleo26cryptoMessageFormatToLabelENS_19CryptoMessageFormatE@Base 4:15.12
+ _ZN4Kleo27KeyListSortFilterProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN4Kleo27KeyListSortFilterProxyModel11qt_metacastEPKc@Base 4:17.08.0
+ _ZN4Kleo27KeyListSortFilterProxyModel12setKeyFilterERKSt10shared_ptrIKNS_9KeyFilterEE@Base 4:17.08.0
+ _ZN4Kleo27KeyListSortFilterProxyModel16staticMetaObjectE@Base 4:17.08.0
+ _ZN4Kleo27KeyListSortFilterProxyModelC1EP7QObject@Base 4:17.08.0
+ _ZN4Kleo27KeyListSortFilterProxyModelC1ERKS0_@Base 4:17.08.0
+ _ZN4Kleo27KeyListSortFilterProxyModelC2EP7QObject@Base 4:17.08.0
+ _ZN4Kleo27KeyListSortFilterProxyModelC2ERKS0_@Base 4:17.08.0
+ _ZN4Kleo27KeyListSortFilterProxyModelD0Ev@Base 4:17.08.0
+ _ZN4Kleo27KeyListSortFilterProxyModelD1Ev@Base 4:17.08.0
+ _ZN4Kleo27KeyListSortFilterProxyModelD2Ev@Base 4:17.08.0
  _ZN4Kleo27cryptoMessageFormatToStringENS_19CryptoMessageFormatE@Base 4:15.12
  _ZN4Kleo27encryptionPreferenceToLabelENS_20EncryptionPreferenceE@Base 4:15.12
  _ZN4Kleo27stringToCryptoMessageFormatERK7QString@Base 4:15.12
@@ -483,6 +483,8 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN4Kleo28DNAttributeOrderConfigWidgetD2Ev@Base 4:15.12
  _ZN4Kleo28encryptionPreferenceToStringENS_20EncryptionPreferenceE@Base 4:15.12
  _ZN4Kleo28stringToEncryptionPreferenceERK7QString@Base 4:15.12
+ _ZN4Kleo29KeyRearrangeColumnsProxyModelC1EP7QObject@Base 4:17.08.0
+ _ZN4Kleo29KeyRearrangeColumnsProxyModelC2EP7QObject@Base 4:17.08.0
  _ZN4Kleo2DN6appendERKNS0_9AttributeE@Base 4:15.12
  _ZN4Kleo2DN6detachEv@Base 4:15.12
  _ZN4Kleo2DN6escapeERK7QString@Base 4:15.12
@@ -499,28 +501,88 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN4Kleo2DNaSERKS0_@Base 4:15.12
  _ZN4Kleo32cryptoMessageFormatsToStringListEj@Base 4:15.12
  _ZN4Kleo32stringListToCryptoMessageFormatsERK11QStringList@Base 4:15.12
- _ZN4Kleo3Job11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4Kleo3Job11qt_metacastEPKc@Base 4:15.12
- _ZN4Kleo3Job16staticMetaObjectE@Base 4:15.12
- _ZN4Kleo3Job4doneEv@Base 4:15.12
- _ZN4Kleo3Job8progressERK7QStringii@Base 4:15.12
- _ZN4Kleo3JobC1EP7QObject@Base 4:15.12
- _ZN4Kleo3JobC2EP7QObject@Base 4:15.12
- _ZN4Kleo3JobD0Ev@Base 4:15.12
- _ZN4Kleo3JobD1Ev@Base 4:15.12
- _ZN4Kleo3JobD2Ev@Base 4:15.12
- _ZN4Kleo7SignJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN4Kleo7SignJob11qt_metacastEPKc@Base 4:15.12
- _ZN4Kleo7SignJob16staticMetaObjectE@Base 4:15.12
- _ZN4Kleo7SignJob6resultERKN5GpgME13SigningResultERK10QByteArrayRK7QStringRKNS1_5ErrorE@Base 4:15.12
- _ZN4Kleo7SignJobC1EP7QObject@Base 4:15.12
- _ZN4Kleo7SignJobC2EP7QObject@Base 4:15.12
- _ZN4Kleo7SignJobD0Ev@Base 4:15.12
- _ZN4Kleo7SignJobD1Ev@Base 4:15.12
- _ZN4Kleo7SignJobD2Ev@Base 4:15.12
+ _ZN4Kleo35AbstractKeyListSortFilterProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN4Kleo35AbstractKeyListSortFilterProxyModel11qt_metacastEPKc@Base 4:17.08.0
+ _ZN4Kleo35AbstractKeyListSortFilterProxyModel16staticMetaObjectE@Base 4:17.08.0
+ _ZN4Kleo35AbstractKeyListSortFilterProxyModel4initEv@Base 4:17.08.0
+ _ZN4Kleo35AbstractKeyListSortFilterProxyModelC1EP7QObject@Base 4:17.08.0
+ _ZN4Kleo35AbstractKeyListSortFilterProxyModelC1ERKS0_@Base 4:17.08.0
+ _ZN4Kleo35AbstractKeyListSortFilterProxyModelC2EP7QObject@Base 4:17.08.0
+ _ZN4Kleo35AbstractKeyListSortFilterProxyModelC2ERKS0_@Base 4:17.08.0
+ _ZN4Kleo35AbstractKeyListSortFilterProxyModelD0Ev@Base 4:17.08.0
+ _ZN4Kleo35AbstractKeyListSortFilterProxyModelD1Ev@Base 4:17.08.0
+ _ZN4Kleo35AbstractKeyListSortFilterProxyModelD2Ev@Base 4:17.08.0
+ _ZN4Kleo7Private14AuditLogViewer10readConfigEv@Base 4:17.08.0
+ _ZN4Kleo7Private14AuditLogViewer10slotSaveAsEv@Base 4:17.08.0
+ _ZN4Kleo7Private14AuditLogViewer11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN4Kleo7Private14AuditLogViewer11qt_metacastEPKc@Base 4:17.08.0
+ _ZN4Kleo7Private14AuditLogViewer11setAuditLogERK7QString@Base 4:17.08.0
+ _ZN4Kleo7Private14AuditLogViewer11writeConfigEv@Base 4:17.08.0
+ _ZN4Kleo7Private14AuditLogViewer12slotCopyClipEv@Base 4:17.08.0
+ _ZN4Kleo7Private14AuditLogViewer16staticMetaObjectE@Base 4:17.08.0
+ _ZN4Kleo7Private14AuditLogViewerC1ERK7QStringP7QWidget@Base 4:17.08.0
+ _ZN4Kleo7Private14AuditLogViewerC2ERK7QStringP7QWidget@Base 4:17.08.0
+ _ZN4Kleo7Private14AuditLogViewerD0Ev@Base 4:17.08.0
+ _ZN4Kleo7Private14AuditLogViewerD1Ev@Base 4:17.08.0
+ _ZN4Kleo7Private14AuditLogViewerD2Ev@Base 4:17.08.0
+ _ZN4Kleo8KeyCache11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN4Kleo8KeyCache11qt_metacastEPKc@Base 4:17.08.0
+ _ZN4Kleo8KeyCache13aboutToRemoveERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJob11qt_metacastEPKc@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJob16staticMetaObjectE@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJob4doneERKN5GpgME13KeyListResultE@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJob5startEv@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJob6cancelEv@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJob7Private14updateKeyCacheEv@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJob7Private15startKeyListingEN5GpgME8ProtocolE@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJob7Private7doStartEv@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJob7Private7jobDoneERKN5GpgME13KeyListResultE@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJob7Private8emitDoneERKN5GpgME13KeyListResultE@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJob7PrivateC1EPS0_PS1_@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJob7PrivateC2EPS0_PS1_@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJob8canceledEv@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJobC1EPS0_P7QObject@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJobC2EPS0_P7QObject@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJobD0Ev@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJobD1Ev@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14RefreshKeysJobD2Ev@Base 4:17.08.0
+ _ZN4Kleo8KeyCache14keyListingDoneERKN5GpgME13KeyListResultE@Base 4:17.08.0
+ _ZN4Kleo8KeyCache15mutableInstanceEv@Base 4:17.08.0
+ _ZN4Kleo8KeyCache16cancelKeyListingEv@Base 4:17.08.0
+ _ZN4Kleo8KeyCache16staticMetaObjectE@Base 4:17.08.0
+ _ZN4Kleo8KeyCache18keysMayHaveChangedEv@Base 4:17.08.0
+ _ZN4Kleo8KeyCache18setRefreshIntervalEi@Base 4:17.08.0
+ _ZN4Kleo8KeyCache20addFileSystemWatcherERKSt10shared_ptrINS_17FileSystemWatcherEE@Base 4:17.08.0
+ _ZN4Kleo8KeyCache23enableFileSystemWatcherEb@Base 4:17.08.0
+ _ZN4Kleo8KeyCache5addedERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo8KeyCache5clearEv@Base 4:17.08.0
+ _ZN4Kleo8KeyCache6insertERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo8KeyCache6insertERKSt6vectorIN5GpgME3KeyESaIS3_EE@Base 4:17.08.0
+ _ZN4Kleo8KeyCache6reloadEN5GpgME8ProtocolE@Base 4:17.08.0
+ _ZN4Kleo8KeyCache6removeERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZN4Kleo8KeyCache6removeERKSt6vectorIN5GpgME3KeyESaIS3_EE@Base 4:17.08.0
+ _ZN4Kleo8KeyCache7Private14refreshJobDoneERKN5GpgME13KeyListResultE@Base 4:17.08.0
+ _ZN4Kleo8KeyCache7refreshERKSt6vectorIN5GpgME3KeyESaIS3_EE@Base 4:17.08.0
+ _ZN4Kleo8KeyCache8instanceEv@Base 4:17.08.0
+ _ZN4Kleo8KeyCacheC1Ev@Base 4:17.08.0
+ _ZN4Kleo8KeyCacheC2Ev@Base 4:17.08.0
+ _ZN4Kleo8KeyCacheD0Ev@Base 4:17.08.0
+ _ZN4Kleo8KeyCacheD1Ev@Base 4:17.08.0
+ _ZN4Kleo8KeyCacheD2Ev@Base 4:17.08.0
+ _ZN4Kleo8classifyERK11QStringList@Base 4:17.08.0
+ _ZN4Kleo8classifyERK7QString@Base 4:17.08.0
  _ZN4Kleo9ExceptionD0Ev@Base 4:15.12
  _ZN4Kleo9ExceptionD1Ev@Base 4:15.12
  _ZN4Kleo9ExceptionD2Ev@Base 4:15.12
+ _ZN4Kleo9KeyFilter15FontDescription6createERK5QFontbbb@Base 4:17.08.0
+ _ZN4Kleo9KeyFilter15FontDescription6createEbbb@Base 4:17.08.0
+ _ZN4Kleo9KeyFilter15FontDescriptionC1ERKS1_@Base 4:17.08.0
+ _ZN4Kleo9KeyFilter15FontDescriptionC1Ev@Base 4:17.08.0
+ _ZN4Kleo9KeyFilter15FontDescriptionC2ERKS1_@Base 4:17.08.0
+ _ZN4Kleo9KeyFilter15FontDescriptionC2Ev@Base 4:17.08.0
+ _ZN4Kleo9KeyFilter15FontDescriptionD1Ev@Base 4:17.08.0
+ _ZN4Kleo9KeyFilter15FontDescriptionD2Ev@Base 4:17.08.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:15.12
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4:15.12
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:15.12
@@ -529,15 +591,6 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZNK16KDHorizontalLine10sizePolicyEv@Base 4:15.12
  _ZNK16KDHorizontalLine15minimumSizeHintEv@Base 4:15.12
  _ZNK16KDHorizontalLine8sizeHintEv@Base 4:15.12
- _ZNK18QGpgMECryptoConfig10metaObjectEv@Base 4:15.12
- _ZNK18QGpgMECryptoConfig13componentListEv@Base 4:15.12
- _ZNK18QGpgMECryptoConfig9componentERK7QString@Base 4:15.12
- _ZNK21QGpgMENewCryptoConfig13componentListEv@Base 4:15.12
- _ZNK21QGpgMENewCryptoConfig9componentERK7QString@Base 4:15.12
- _ZNK4Kleo10DecryptJob10metaObjectEv@Base 4:15.12
- _ZNK4Kleo10EncryptJob10metaObjectEv@Base 4:15.12
- _ZNK4Kleo10SignKeyJob10metaObjectEv@Base 4:15.12
- _ZNK4Kleo11DownloadJob10metaObjectEv@Base 4:15.12
  _ZNK4Kleo11KeyListView10firstChildEv@Base 4:15.12
  _ZNK4Kleo11KeyListView10metaObjectEv@Base 4:15.12
  _ZNK4Kleo11KeyListView12selectedItemEv@Base 4:15.12
@@ -551,7 +604,6 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZNK4Kleo11KeyListView16isMultiSelectionEv@Base 4:15.12
  _ZNK4Kleo11KeyListView17itemByFingerprintERK10QByteArray@Base 4:15.12
  _ZNK4Kleo11ProgressBar10metaObjectEv@Base 4:15.12
- _ZNK4Kleo12AddUserIDJob10metaObjectEv@Base 4:15.12
  _ZNK4Kleo12KeyRequester10metaObjectEv@Base 4:15.12
  _ZNK4Kleo12KeyRequester11allowedKeysEv@Base 4:15.12
  _ZNK4Kleo12KeyRequester11fingerprintEv@Base 4:15.12
@@ -559,12 +611,27 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZNK4Kleo12KeyRequester21isMultipleKeysEnabledEv@Base 4:15.12
  _ZNK4Kleo12KeyRequester3keyEv@Base 4:15.12
  _ZNK4Kleo12KeyRequester4keysEv@Base 4:15.12
- _ZNK4Kleo14MultiDeleteJob10metaObjectEv@Base 4:15.12
  _ZNK4Kleo14ProgressDialog10metaObjectEv@Base 4:15.12
- _ZNK4Kleo15ChangeExpiryJob10metaObjectEv@Base 4:15.12
- _ZNK4Kleo15ChangePasswdJob10metaObjectEv@Base 4:15.12
- _ZNK4Kleo15VerifyOpaqueJob10metaObjectEv@Base 4:15.12
- _ZNK4Kleo16DecryptVerifyJob10metaObjectEv@Base 4:15.12
+ _ZNK4Kleo15SubkeyListModel10headerDataEiN2Qt11OrientationEi@Base 4:17.08.0
+ _ZNK4Kleo15SubkeyListModel10metaObjectEv@Base 4:17.08.0
+ _ZNK4Kleo15SubkeyListModel11columnCountERK11QModelIndex@Base 4:17.08.0
+ _ZNK4Kleo15SubkeyListModel3keyEv@Base 4:17.08.0
+ _ZNK4Kleo15SubkeyListModel4dataERK11QModelIndexi@Base 4:17.08.0
+ _ZNK4Kleo15SubkeyListModel5indexERKN5GpgME6SubkeyEi@Base 4:17.08.0
+ _ZNK4Kleo15SubkeyListModel6subkeyERK11QModelIndex@Base 4:17.08.0
+ _ZNK4Kleo15SubkeyListModel7indexesERKSt6vectorIN5GpgME6SubkeyESaIS3_EE@Base 4:17.08.0
+ _ZNK4Kleo15SubkeyListModel7subkeysERK5QListI11QModelIndexE@Base 4:17.08.0
+ _ZNK4Kleo15SubkeyListModel8rowCountERK11QModelIndex@Base 4:17.08.0
+ _ZNK4Kleo15UserIDListModel10headerDataEiN2Qt11OrientationEi@Base 4:17.08.0
+ _ZNK4Kleo15UserIDListModel10metaObjectEv@Base 4:17.08.0
+ _ZNK4Kleo15UserIDListModel10signaturesERK5QListI11QModelIndexE@Base 4:17.08.0
+ _ZNK4Kleo15UserIDListModel11columnCountERK11QModelIndex@Base 4:17.08.0
+ _ZNK4Kleo15UserIDListModel3keyEv@Base 4:17.08.0
+ _ZNK4Kleo15UserIDListModel4dataERK11QModelIndexi@Base 4:17.08.0
+ _ZNK4Kleo15UserIDListModel5indexEiiRK11QModelIndex@Base 4:17.08.0
+ _ZNK4Kleo15UserIDListModel6parentERK11QModelIndex@Base 4:17.08.0
+ _ZNK4Kleo15UserIDListModel7userIDsERK5QListI11QModelIndexE@Base 4:17.08.0
+ _ZNK4Kleo15UserIDListModel8rowCountERK11QModelIndex@Base 4:17.08.0
  _ZNK4Kleo16DefaultKeyFilter10canCertifyEv@Base 4:16.08.0
  _ZNK4Kleo16DefaultKeyFilter10canEncryptEv@Base 4:16.08.0
  _ZNK4Kleo16DefaultKeyFilter10ownerTrustEv@Base 4:16.08.0
@@ -586,10 +653,10 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZNK4Kleo16DefaultKeyFilter13setCanCertifyENS0_8TriStateE@Base 4:16.08.0
  _ZNK4Kleo16DefaultKeyFilter13setCanEncryptENS0_8TriStateE@Base 4:16.08.0
  _ZNK4Kleo16DefaultKeyFilter13setOwnerTrustENS0_10LevelStateE@Base 4:16.08.0
- _ZNK4Kleo16DefaultKeyFilter14fontDesriptionEv@Base 4:16.08.0
  _ZNK4Kleo16DefaultKeyFilter14setSpecificityEj@Base 4:16.08.0
  _ZNK4Kleo16DefaultKeyFilter14setUseFullFontEb@Base 4:16.08.0
  _ZNK4Kleo16DefaultKeyFilter15canAuthenticateEv@Base 4:16.08.0
+ _ZNK4Kleo16DefaultKeyFilter15fontDescriptionEv@Base 4:17.08.0
  _ZNK4Kleo16DefaultKeyFilter15setWasValidatedENS0_8TriStateE@Base 4:16.08.0
  _ZNK4Kleo16DefaultKeyFilter16setMatchContextsE6QFlagsINS_9KeyFilter12MatchContextEE@Base 4:16.08.0
  _ZNK4Kleo16DefaultKeyFilter18setCanAuthenticateENS0_8TriStateE@Base 4:16.08.0
@@ -625,9 +692,8 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZNK4Kleo16DefaultKeyFilter9qualifiedEv@Base 4:16.08.0
  _ZNK4Kleo16DefaultKeyFilter9setItalicEb@Base 4:16.08.0
  _ZNK4Kleo16DefaultKeyFilter9strikeOutEv@Base 4:16.08.0
- _ZNK4Kleo16GnuPGProcessBase10metaObjectEv@Base 4:15.12
  _ZNK4Kleo16KeyFilterManager10metaObjectEv@Base 4:15.12
- _ZNK4Kleo16KeyFilterManager12toModelIndexERKN5boost10shared_ptrINS_9KeyFilterEEE@Base 4:15.12
+ _ZNK4Kleo16KeyFilterManager12toModelIndexERKSt10shared_ptrINS_9KeyFilterEE@Base 4:17.08.0
  _ZNK4Kleo16KeyFilterManager13keyFilterByIDERK7QString@Base 4:15.12
  _ZNK4Kleo16KeyFilterManager14filterMatchingERKN5GpgME3KeyE6QFlagsINS_9KeyFilter12MatchContextEE@Base 4:15.12
  _ZNK4Kleo16KeyFilterManager14fromModelIndexERK11QModelIndex@Base 4:15.12
@@ -637,7 +703,6 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZNK4Kleo16KeyFilterManager5modelEv@Base 4:15.12
  _ZNK4Kleo16KeyFilterManager7bgColorERKN5GpgME3KeyE@Base 4:15.12
  _ZNK4Kleo16KeyFilterManager7fgColorERKN5GpgME3KeyE@Base 4:15.12
- _ZNK4Kleo16KeyForMailboxJob10metaObjectEv@Base 4:16.08.0
  _ZNK4Kleo17DNAttributeMapper10name2labelERK7QString@Base 4:15.12
  _ZNK4Kleo17DNAttributeMapper12configWidgetEP7QWidget@Base 4:15.12
  _ZNK4Kleo17DNAttributeMapper14attributeOrderEv@Base 4:15.12
@@ -647,10 +712,18 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZNK4Kleo17FileNameRequester12existingOnlyEv@Base 4:15.12
  _ZNK4Kleo17FileNameRequester6filterEv@Base 4:15.12
  _ZNK4Kleo17FileNameRequester8fileNameEv@Base 4:15.12
+ _ZNK4Kleo17FileSystemWatcher10metaObjectEv@Base 4:17.08.0
+ _ZNK4Kleo17FileSystemWatcher5delayEv@Base 4:17.08.0
+ _ZNK4Kleo17FileSystemWatcher9isEnabledEv@Base 4:17.08.0
  _ZNK4Kleo17KeyApprovalDialog10metaObjectEv@Base 4:15.12
  _ZNK4Kleo17KeyApprovalDialog10senderKeysEv@Base 4:15.12
  _ZNK4Kleo17KeyApprovalDialog18preferencesChangedEv@Base 4:15.12
  _ZNK4Kleo17KeyApprovalDialog5itemsEv@Base 4:15.12
+ _ZNK4Kleo17KeySelectionCombo10currentKeyEv@Base 4:17.08.0
+ _ZNK4Kleo17KeySelectionCombo10defaultKeyEv@Base 4:17.08.0
+ _ZNK4Kleo17KeySelectionCombo10metaObjectEv@Base 4:17.08.0
+ _ZNK4Kleo17KeySelectionCombo8idFilterEv@Base 4:17.08.0
+ _ZNK4Kleo17KeySelectionCombo9keyFilterEv@Base 4:17.08.0
  _ZNK4Kleo18ChecksumDefinition13createCommandEv@Base 4:15.12
  _ZNK4Kleo18ChecksumDefinition13verifyCommandEv@Base 4:15.12
  _ZNK4Kleo18ChecksumDefinition18startCreateCommandEP8QProcessRK11QStringList@Base 4:15.12
@@ -665,215 +738,293 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZNK4Kleo18KeySelectionDialog17rememberSelectionEv@Base 4:15.12
  _ZNK4Kleo18KeySelectionDialog17smimeFingerprintsEv@Base 4:15.12
  _ZNK4Kleo18KeySelectionDialog18pgpKeyFingerprintsEv@Base 4:15.12
- _ZNK4Kleo19ChangeOwnerTrustJob10metaObjectEv@Base 4:15.12
  _ZNK4Kleo19SigningKeyRequester10metaObjectEv@Base 4:15.12
- _ZNK4Kleo20CryptoBackendFactory10metaObjectEv@Base 4:15.12
- _ZNK4Kleo20CryptoBackendFactory11hasBackendsEv@Base 4:15.12
- _ZNK4Kleo20CryptoBackendFactory12configObjectEv@Base 4:15.12
- _ZNK4Kleo20CryptoBackendFactory13backendByNameERK7QString@Base 4:15.12
- _ZNK4Kleo20CryptoBackendFactory18enumerateProtocolsEi@Base 4:15.12
- _ZNK4Kleo20CryptoBackendFactory18knowsAboutProtocolEPKc@Base 4:15.12
- _ZNK4Kleo20CryptoBackendFactory5smimeEv@Base 4:15.12
- _ZNK4Kleo20CryptoBackendFactory6configEv@Base 4:15.12
- _ZNK4Kleo20CryptoBackendFactory7backendEj@Base 4:15.12
- _ZNK4Kleo20CryptoBackendFactory7openpgpEv@Base 4:15.12
- _ZNK4Kleo20CryptoBackendFactory8protocolEN5GpgME8ProtocolE@Base 4:15.12
- _ZNK4Kleo20CryptoBackendFactory8protocolEPKc@Base 4:15.12
+ _ZNK4Kleo20AbstractKeyListModel10headerDataEiN2Qt11OrientationEi@Base 4:17.08.0
+ _ZNK4Kleo20AbstractKeyListModel10metaObjectEv@Base 4:17.08.0
+ _ZNK4Kleo20AbstractKeyListModel11columnCountERK11QModelIndex@Base 4:17.08.0
+ _ZNK4Kleo20AbstractKeyListModel14toolTipOptionsEv@Base 4:17.08.0
+ _ZNK4Kleo20AbstractKeyListModel3keyERK11QModelIndex@Base 4:17.08.0
+ _ZNK4Kleo20AbstractKeyListModel4dataERK11QModelIndexi@Base 4:17.08.0
+ _ZNK4Kleo20AbstractKeyListModel4keysERK5QListI11QModelIndexE@Base 4:17.08.0
+ _ZNK4Kleo20AbstractKeyListModel5indexERKN5GpgME3KeyEi@Base 4:17.08.0
+ _ZNK4Kleo20AbstractKeyListModel7indexesERKSt6vectorIN5GpgME3KeyESaIS3_EE@Base 4:17.08.0
  _ZNK4Kleo22EncryptionKeyRequester10metaObjectEv@Base 4:15.12
- _ZNK4Kleo22HierarchicalKeyListJob10metaObjectEv@Base 4:15.12
+ _ZNK4Kleo23DefaultKeyGenerationJob10metaObjectEv@Base 4:17.08.0
+ _ZNK4Kleo23DefaultKeyGenerationJob13auditLogErrorEv@Base 4:17.08.0
+ _ZNK4Kleo23DefaultKeyGenerationJob14auditLogAsHtmlEv@Base 4:17.08.0
  _ZNK4Kleo23DirectoryServicesWidget10metaObjectEv@Base 4:15.12
  _ZNK4Kleo23DirectoryServicesWidget12x509ServicesEv@Base 4:15.12
  _ZNK4Kleo23DirectoryServicesWidget14allowedSchemesEv@Base 4:15.12
  _ZNK4Kleo23DirectoryServicesWidget15openPGPServicesEv@Base 4:15.12
  _ZNK4Kleo23DirectoryServicesWidget16allowedProtocolsEv@Base 4:15.12
  _ZNK4Kleo23DirectoryServicesWidget17readOnlyProtocolsEv@Base 4:15.12
+ _ZNK4Kleo27KeyListSortFilterProxyModel10metaObjectEv@Base 4:17.08.0
+ _ZNK4Kleo27KeyListSortFilterProxyModel16filterAcceptsRowEiRK11QModelIndex@Base 4:17.08.0
+ _ZNK4Kleo27KeyListSortFilterProxyModel5cloneEv@Base 4:17.08.0
+ _ZNK4Kleo27KeyListSortFilterProxyModel9keyFilterEv@Base 4:17.08.0
  _ZNK4Kleo28DNAttributeOrderConfigWidget10metaObjectEv@Base 4:15.12
  _ZNK4Kleo28DNAttributeOrderConfigWidget4saveEv@Base 4:15.12
+ _ZNK4Kleo29KeyRearrangeColumnsProxyModel3keyERK11QModelIndex@Base 4:17.08.0
+ _ZNK4Kleo29KeyRearrangeColumnsProxyModel3klmEv@Base 4:17.08.0
+ _ZNK4Kleo29KeyRearrangeColumnsProxyModel4keysERK5QListI11QModelIndexE@Base 4:17.08.0
+ _ZNK4Kleo29KeyRearrangeColumnsProxyModel5indexERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZNK4Kleo29KeyRearrangeColumnsProxyModel7indexesERKSt6vectorIN5GpgME3KeyESaIS3_EE@Base 4:17.08.0
  _ZNK4Kleo2DN2dnERK7QString@Base 4:15.12
  _ZNK4Kleo2DN2dnEv@Base 4:15.12
  _ZNK4Kleo2DN3endEv@Base 4:15.12
  _ZNK4Kleo2DN5beginEv@Base 4:15.12
  _ZNK4Kleo2DN8prettyDNEv@Base 4:15.12
  _ZNK4Kleo2DNixERK7QString@Base 4:15.12
- _ZNK4Kleo3Job10metaObjectEv@Base 4:15.12
- _ZNK4Kleo3Job13auditLogErrorEv@Base 4:15.12
- _ZNK4Kleo3Job14auditLogAsHtmlEv@Base 4:15.12
- _ZNK4Kleo3Job15showErrorDialogEP7QWidgetRK7QString@Base 4:15.12
- _ZNK4Kleo3Job19isAuditLogSupportedEv@Base 4:15.12
- _ZNK4Kleo7SignJob10metaObjectEv@Base 4:15.12
- _ZNK6QColor7isValidEv@Base 4:15.12
+ _ZNK4Kleo35AbstractKeyListSortFilterProxyModel10metaObjectEv@Base 4:17.08.0
+ _ZNK4Kleo35AbstractKeyListSortFilterProxyModel3keyERK11QModelIndex@Base 4:17.08.0
+ _ZNK4Kleo35AbstractKeyListSortFilterProxyModel4keysERK5QListI11QModelIndexE@Base 4:17.08.0
+ _ZNK4Kleo35AbstractKeyListSortFilterProxyModel5indexERKN5GpgME3KeyE@Base 4:17.08.0
+ _ZNK4Kleo35AbstractKeyListSortFilterProxyModel7indexesERKSt6vectorIN5GpgME3KeyESaIS3_EE@Base 4:17.08.0
+ _ZNK4Kleo7Private14AuditLogViewer10metaObjectEv@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache10metaObjectEv@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache10secretKeysEv@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache11findIssuersEN9__gnu_cxx17__normal_iteratorIPKN5GpgME3KeyESt6vectorIS4_SaIS4_EEEESA_6QFlagsINS0_6OptionEE@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache11findIssuersERKN5GpgME3KeyE6QFlagsINS0_6OptionEE@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache11findIssuersERKSt6vectorIN5GpgME3KeyESaIS3_EE6QFlagsINS0_6OptionEE@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache11findSignersERKN5GpgME18VerificationResultE@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache11initializedEv@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache12findSubjectsEN9__gnu_cxx17__normal_iteratorIPKN5GpgME3KeyESt6vectorIS4_SaIS4_EEEESA_6QFlagsINS0_6OptionEE@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache12findSubjectsERKN5GpgME3KeyE6QFlagsINS0_6OptionEE@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache12findSubjectsERKSt6vectorIN5GpgME3KeyESaIS3_EE6QFlagsINS0_6OptionEE@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache14RefreshKeysJob10metaObjectEv@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache14findRecipientsERKN5GpgME16DecryptionResultE@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache15refreshIntervalEv@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache16findByShortKeyIDEPKc@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache16findByShortKeyIDERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache17findByFingerprintEPKc@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache17findByFingerprintERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache18findByEMailAddressEPKc@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache18findByEMailAddressERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache18findSubkeysByKeyIDERKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS7_EE@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache24findByKeyIDOrFingerprintEPKc@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache24findByKeyIDOrFingerprintERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache24findByKeyIDOrFingerprintERKSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS7_EE@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache24findSigningKeysByMailboxERK7QString@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache27findEncryptionKeysByMailboxERK7QString@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache4keysEv@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache7Private12find_mailboxERK7QStringb@Base 4:17.08.0
+ _ZNK4Kleo8KeyCache7Private20ensureCachePopulatedEv@Base 4:17.08.0
+ _ZNK4Kleo9KeyFilter15FontDescription4fontERK5QFont@Base 4:17.08.0
+ _ZNK4Kleo9KeyFilter15FontDescription7resolveERKS1_@Base 4:17.08.0
+ (optional=templinst)_ZNSt11__copy_moveILb0ELb0ESt26random_access_iterator_tagE8__copy_mIPKN5GpgME3KeyEPS4_EET0_T_S9_S8_@Base 4:17.08.0
+ (optional=templinst)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 4:17.08.0
+ (optional=templinst)_ZNSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 4:17.08.0
+ (optional=templinst)_ZNSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 4:17.08.0
+ (optional=templinst)_ZNSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info@Base 4:17.08.0
+ (optional=templinst)_ZNSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 4:17.08.0
+ (optional=templinst)_ZNSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 4:17.08.0
+ (optional=templinst)_ZNSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info@Base 4:17.08.0
+ (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 4:17.08.0
+ (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv@Base 4:17.08.0
+ (optional=templinst)_ZNSt17_Temporary_bufferIN9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN4Kleo9KeyFilterEESt6vectorIS5_SaIS5_EEEES5_EC1ESA_SA_@Base 4:17.08.0
+ (optional=templinst)_ZNSt17_Temporary_bufferIN9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN4Kleo9KeyFilterEESt6vectorIS5_SaIS5_EEEES5_EC2ESA_SA_@Base 4:17.08.0
+ (optional=templinst)_ZNSt17_Temporary_bufferIN9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN4Kleo9KeyFilterEESt6vectorIS5_SaIS5_EEEES5_ED1Ev@Base 4:17.08.0
+ (optional=templinst)_ZNSt17_Temporary_bufferIN9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN4Kleo9KeyFilterEESt6vectorIS5_SaIS5_EEEES5_ED2Ev@Base 4:17.08.0
+ (optional=templinst)_ZNSt20__copy_move_backwardILb1ELb0ESt26random_access_iterator_tagE13__copy_move_bIPN5GpgME3KeyES5_EET0_T_S7_S6_@Base 4:17.08.0
+ (optional=templinst)_ZNSt3_V28__rotateIN9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN4Kleo9KeyFilterEESt6vectorIS6_SaIS6_EEEEEET_SC_SC_SC_St26random_access_iterator_tag@Base 4:17.08.0
+ (optional=templinst)_ZNSt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5GpgME3KeyEEaSEOS8_@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorI4QUrlSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EE17_M_realloc_insertIJS2_EEEvN9__gnu_cxx17__normal_iteratorIPS2_S4_EEDpOT_@Base 4:17.08.0
  (optional=templinst|arch=!amd64 !armhf !i386)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 4:15.12
- (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EE19_M_emplace_back_auxIJS2_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EED1Ev@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EED2Ev@Base 4:15.12
  (optional=templinst|arch=alpha arm64 armel armhf hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED1Ev@Base 4:16.04.0
  (optional=templinst|arch=alpha arm64 armel armhf hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED2Ev@Base 4:16.04.0
- (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED1Ev@Base 4:15.12
- (optional=templinst)_ZNSt6vectorIN5GpgME13Configuration9ComponentESaIS2_EED2Ev@Base 4:15.12
+ (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EED1Ev@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EED2Ev@Base 4:17.08.0
  (optional=templinst|arch=!amd64 !armhf !i386)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 4:15.12
- (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIJS1_EEEvDpOT_@Base 4:15.12
  (optional=templinst|arch=powerpc ppc64 ppc64el|subst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE7reserveE{size_t}@Base 4:16.04.1
- (optional=templinst|arch=!x32)_ZNSt6vectorIN5GpgME3KeyESaIS1_EEC1ERKS3_@Base 4:15.12
- (optional=templinst|arch=!x32)_ZNSt6vectorIN5GpgME3KeyESaIS1_EEC2ERKS3_@Base 4:15.12
+ (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE7reserveEm@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED1Ev@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED2Ev@Base 4:15.12
+ (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EED1Ev@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EED2Ev@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED1Ev@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED2Ev@Base 4:15.12
+ (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED1Ev@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED2Ev@Base 4:17.08.0
  (optional=templinst|arch=!amd64 !armhf !i386)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIIS5_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIJS5_EEEvDpOT_@Base 4:15.12
+ (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_@Base 4:17.08.0
  (optional=templinst|arch=alpha arm64 armel hppa kfreebsd-amd64 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIIS5_EEEvDpOT_@Base 4:15.12
- (optional=templinst|arch=alpha amd64 arm64 armel armhf hppa kfreebsd-amd64 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIJS5_EEEvDpOT_@Base 4:15.12
+ (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorIP9QComboBoxSaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Base 4:17.08.0
  (optional=templinst|arch=!amd64 !armhf !i386)_ZNSt6vectorIP9QComboBoxSaIS1_EE19_M_emplace_back_auxIIRKS1_EEEvDpOT_@Base 4:15.12
- (optional=templinst)_ZNSt6vectorIP9QComboBoxSaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_@Base 4:15.12
+ (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorIPN4Kleo12KeyRequesterESaIS2_EE17_M_realloc_insertIJRKS2_EEEvN9__gnu_cxx17__normal_iteratorIPS2_S4_EEDpOT_@Base 4:17.08.0
  (optional=templinst|arch=!amd64 !armhf !i386)_ZNSt6vectorIPN4Kleo12KeyRequesterESaIS2_EE19_M_emplace_back_auxIIRKS2_EEEvDpOT_@Base 4:15.12
- (optional=templinst)_ZNSt6vectorIPN4Kleo12KeyRequesterESaIS2_EE19_M_emplace_back_auxIJRKS2_EEEvDpOT_@Base 4:15.12
- (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJiEEEvDpOT_@Base 4:16.08.0
- (optional=templinst)_ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIJjEEEvDpOT_@Base 4:16.08.0
- (optional=templinst)_ZNSt6vectorIjSaIjEEaSERKS1_@Base 4:15.12
- (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE16_M_insert_uniqueIS0_EESt4pairISt17_Rb_tree_iteratorIS0_EbEOT_@Base 4:15.12
+ (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo18ChecksumDefinitionEESaIS3_EE17_M_realloc_insertIJRKS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo18ChecksumDefinitionEESaIS3_EE7reserveEm@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo18ChecksumDefinitionEESaIS3_EED1Ev@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo18ChecksumDefinitionEESaIS3_EED2Ev@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo9KeyFilterEESaIS3_EE12emplace_backIJS3_EEEvDpOT_@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo9KeyFilterEESaIS3_EE17_M_realloc_insertIJRKS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo9KeyFilterEESaIS3_EE17_M_realloc_insertIJS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo9KeyFilterEESaIS3_EE7reserveEm@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo9KeyFilterEESaIS3_EED1Ev@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo9KeyFilterEESaIS3_EED2Ev@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5GpgME3KeyEESaIS9_EE17_M_realloc_insertIJRKS9_EEEvN9__gnu_cxx17__normal_iteratorIPS9_SB_EEDpOT_@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5GpgME3KeyEESaIS9_EE7reserveEm@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5GpgME3KeyEESaIS9_EED1Ev@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5GpgME3KeyEESaIS9_EED2Ev@Base 4:17.08.0
+ (optional=templinst)_ZNSt6vectorIiSaIiEE17_M_realloc_insertIJiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_@Base 4:17.08.0
+ (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE16_M_insert_uniqueIRKS0_EESt4pairISt17_Rb_tree_iteratorIS0_EbEOT_@Base 4:17.08.0
  (optional=templinst|arch=!amd64 !armhf !i386)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE17_M_insert_unique_IRKS0_NS6_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS0_ESt23_Rb_tree_const_iteratorIS0_EOT_RT0_@Base 4:15.12
  (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE24_M_get_insert_unique_posERKS0_@Base 4:15.12
  (optional=templinst|arch=!alpha !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS0_ERKS0_@Base 4:15.12
+ (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE4swapERS6_@Base 4:17.08.0
  (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE8_M_eraseEPSt13_Rb_tree_nodeIS0_E@Base 4:15.12
+ (optional=templinst)_ZSt9transformIN9__gnu_cxx17__normal_iteratorIPKN5GpgME6UserID9SignatureESt6vectorIS4_SaIS4_EEEESt20back_insert_iteratorIS7_INSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaISH_EEESt5_BindIFMS4_KFPKcvESt12_PlaceholderILi1EEEEET0_T_SV_SU_T1_@Base 4:17.08.0
  _ZTI16KDHorizontalLine@Base 4:15.12
- _ZTI18QGpgMECryptoConfig@Base 4:15.12
- _ZTI21QGpgMENewCryptoConfig@Base 4:15.12
- _ZTIN4Kleo10DecryptJobE@Base 4:15.12
- _ZTIN4Kleo10EncryptJobE@Base 4:15.12
- _ZTIN4Kleo10SignKeyJobE@Base 4:15.12
- _ZTIN4Kleo11DownloadJobE@Base 4:15.12
  _ZTIN4Kleo11KeyListView14ColumnStrategyE@Base 4:15.12
  _ZTIN4Kleo11KeyListView15DisplayStrategyE@Base 4:15.12
  _ZTIN4Kleo11KeyListViewE@Base 4:15.12
  _ZTIN4Kleo11ProgressBarE@Base 4:15.12
- _ZTIN4Kleo12AddUserIDJobE@Base 4:15.12
  _ZTIN4Kleo12KeyRequesterE@Base 4:15.12
- _ZTIN4Kleo14MultiDeleteJobE@Base 4:15.12
  _ZTIN4Kleo14ProgressDialogE@Base 4:15.12
- _ZTIN4Kleo15ChangeExpiryJobE@Base 4:15.12
- _ZTIN4Kleo15ChangePasswdJobE@Base 4:15.12
- _ZTIN4Kleo15VerifyOpaqueJobE@Base 4:15.12
- _ZTIN4Kleo16DecryptVerifyJobE@Base 4:15.12
+ _ZTIN4Kleo15SubkeyListModelE@Base 4:17.08.0
+ _ZTIN4Kleo15UserIDListModelE@Base 4:17.08.0
  _ZTIN4Kleo16DefaultKeyFilterE@Base 4:16.08.0
- _ZTIN4Kleo16GnuPGProcessBaseE@Base 4:15.12
  _ZTIN4Kleo16KeyFilterManagerE@Base 4:15.12
- _ZTIN4Kleo16KeyForMailboxJobE@Base 4:16.08.0
  _ZTIN4Kleo17FileNameRequesterE@Base 4:15.12
+ _ZTIN4Kleo17FileSystemWatcherE@Base 4:17.08.0
  _ZTIN4Kleo17KeyApprovalDialogE@Base 4:15.12
+ _ZTIN4Kleo17KeySelectionComboE@Base 4:17.08.0
  _ZTIN4Kleo18ChecksumDefinitionE@Base 4:15.12
  _ZTIN4Kleo18CryptoConfigDialogE@Base 4:15.12
  _ZTIN4Kleo18CryptoConfigModuleE@Base 4:15.12
  _ZTIN4Kleo18KeySelectionDialogE@Base 4:15.12
- _ZTIN4Kleo19ChangeOwnerTrustJobE@Base 4:15.12
  _ZTIN4Kleo19SigningKeyRequesterE@Base 4:15.12
- _ZTIN4Kleo20CryptoBackendFactoryE@Base 4:15.12
+ _ZTIN4Kleo20AbstractKeyListModelE@Base 4:17.08.0
+ _ZTIN4Kleo21KConfigBasedKeyFilterE@Base 4:17.08.0
  _ZTIN4Kleo22EncryptionKeyRequesterE@Base 4:15.12
- _ZTIN4Kleo22HierarchicalKeyListJobE@Base 4:15.12
+ _ZTIN4Kleo23DefaultKeyGenerationJobE@Base 4:17.08.0
  _ZTIN4Kleo23DirectoryServicesWidgetE@Base 4:15.12
+ _ZTIN4Kleo27KeyListSortFilterProxyModelE@Base 4:17.08.0
  _ZTIN4Kleo28DNAttributeOrderConfigWidgetE@Base 4:15.12
- _ZTIN4Kleo3JobE@Base 4:15.12
- _ZTIN4Kleo7SignJobE@Base 4:15.12
+ _ZTIN4Kleo29KeyRearrangeColumnsProxyModelE@Base 4:17.08.0
+ _ZTIN4Kleo35AbstractKeyListSortFilterProxyModelE@Base 4:17.08.0
+ _ZTIN4Kleo7Private14AuditLogViewerE@Base 4:17.08.0
+ _ZTIN4Kleo8KeyCache14RefreshKeysJobE@Base 4:17.08.0
+ _ZTIN4Kleo8KeyCacheE@Base 4:17.08.0
  _ZTIN4Kleo9ExceptionE@Base 4:15.12
+ _ZTIN4Kleo9KeyFilterE@Base 4:17.08.0
  _ZTIN5boost16exception_detail10clone_baseE@Base 4:15.12
  _ZTIN5boost9exceptionE@Base 4:15.12
+ _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ _ZTISt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ _ZTISt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
  _ZTS16KDHorizontalLine@Base 4:15.12
- _ZTS18QGpgMECryptoConfig@Base 4:15.12
- _ZTS21QGpgMENewCryptoConfig@Base 4:15.12
- _ZTSN4Kleo10DecryptJobE@Base 4:15.12
- _ZTSN4Kleo10EncryptJobE@Base 4:15.12
- _ZTSN4Kleo10SignKeyJobE@Base 4:15.12
- _ZTSN4Kleo11DownloadJobE@Base 4:15.12
  _ZTSN4Kleo11KeyListView14ColumnStrategyE@Base 4:15.12
  _ZTSN4Kleo11KeyListView15DisplayStrategyE@Base 4:15.12
  _ZTSN4Kleo11KeyListViewE@Base 4:15.12
  _ZTSN4Kleo11ProgressBarE@Base 4:15.12
- _ZTSN4Kleo12AddUserIDJobE@Base 4:15.12
  _ZTSN4Kleo12KeyRequesterE@Base 4:15.12
- _ZTSN4Kleo14MultiDeleteJobE@Base 4:15.12
  _ZTSN4Kleo14ProgressDialogE@Base 4:15.12
- _ZTSN4Kleo15ChangeExpiryJobE@Base 4:15.12
- _ZTSN4Kleo15ChangePasswdJobE@Base 4:15.12
- _ZTSN4Kleo15VerifyOpaqueJobE@Base 4:15.12
- _ZTSN4Kleo16DecryptVerifyJobE@Base 4:15.12
+ _ZTSN4Kleo15SubkeyListModelE@Base 4:17.08.0
+ _ZTSN4Kleo15UserIDListModelE@Base 4:17.08.0
  _ZTSN4Kleo16DefaultKeyFilterE@Base 4:16.08.0
- _ZTSN4Kleo16GnuPGProcessBaseE@Base 4:15.12
  _ZTSN4Kleo16KeyFilterManagerE@Base 4:15.12
- _ZTSN4Kleo16KeyForMailboxJobE@Base 4:16.08.0
  _ZTSN4Kleo17FileNameRequesterE@Base 4:15.12
+ _ZTSN4Kleo17FileSystemWatcherE@Base 4:17.08.0
  _ZTSN4Kleo17KeyApprovalDialogE@Base 4:15.12
+ _ZTSN4Kleo17KeySelectionComboE@Base 4:17.08.0
  _ZTSN4Kleo18ChecksumDefinitionE@Base 4:15.12
  _ZTSN4Kleo18CryptoConfigDialogE@Base 4:15.12
  _ZTSN4Kleo18CryptoConfigModuleE@Base 4:15.12
  _ZTSN4Kleo18KeySelectionDialogE@Base 4:15.12
- _ZTSN4Kleo19ChangeOwnerTrustJobE@Base 4:15.12
  _ZTSN4Kleo19SigningKeyRequesterE@Base 4:15.12
- _ZTSN4Kleo20CryptoBackendFactoryE@Base 4:15.12
+ _ZTSN4Kleo20AbstractKeyListModelE@Base 4:17.08.0
+ _ZTSN4Kleo21KConfigBasedKeyFilterE@Base 4:17.08.0
  _ZTSN4Kleo22EncryptionKeyRequesterE@Base 4:15.12
- _ZTSN4Kleo22HierarchicalKeyListJobE@Base 4:15.12
+ _ZTSN4Kleo23DefaultKeyGenerationJobE@Base 4:17.08.0
  _ZTSN4Kleo23DirectoryServicesWidgetE@Base 4:15.12
+ _ZTSN4Kleo27KeyListSortFilterProxyModelE@Base 4:17.08.0
  _ZTSN4Kleo28DNAttributeOrderConfigWidgetE@Base 4:15.12
- _ZTSN4Kleo3JobE@Base 4:15.12
- _ZTSN4Kleo7SignJobE@Base 4:15.12
+ _ZTSN4Kleo29KeyRearrangeColumnsProxyModelE@Base 4:17.08.0
+ _ZTSN4Kleo35AbstractKeyListSortFilterProxyModelE@Base 4:17.08.0
+ _ZTSN4Kleo7Private14AuditLogViewerE@Base 4:17.08.0
+ _ZTSN4Kleo8KeyCache14RefreshKeysJobE@Base 4:17.08.0
+ _ZTSN4Kleo8KeyCacheE@Base 4:17.08.0
  _ZTSN4Kleo9ExceptionE@Base 4:15.12
+ _ZTSN4Kleo9KeyFilterE@Base 4:17.08.0
  _ZTSN5boost16exception_detail10clone_baseE@Base 4:15.12
  _ZTSN5boost9exceptionE@Base 4:15.12
+ _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ _ZTSSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ _ZTSSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
  _ZTV16KDHorizontalLine@Base 4:15.12
- _ZTV18QGpgMECryptoConfig@Base 4:15.12
- _ZTV21QGpgMENewCryptoConfig@Base 4:15.12
- _ZTVN4Kleo10DecryptJobE@Base 4:15.12
- _ZTVN4Kleo10EncryptJobE@Base 4:15.12
- _ZTVN4Kleo10SignKeyJobE@Base 4:15.12
- _ZTVN4Kleo11DownloadJobE@Base 4:15.12
  _ZTVN4Kleo11KeyListView14ColumnStrategyE@Base 4:15.12
  _ZTVN4Kleo11KeyListView15DisplayStrategyE@Base 4:15.12
  _ZTVN4Kleo11KeyListViewE@Base 4:15.12
  _ZTVN4Kleo11ProgressBarE@Base 4:15.12
- _ZTVN4Kleo12AddUserIDJobE@Base 4:15.12
  _ZTVN4Kleo12KeyRequesterE@Base 4:15.12
- _ZTVN4Kleo14MultiDeleteJobE@Base 4:15.12
  _ZTVN4Kleo14ProgressDialogE@Base 4:15.12
- _ZTVN4Kleo15ChangeExpiryJobE@Base 4:15.12
- _ZTVN4Kleo15ChangePasswdJobE@Base 4:15.12
- _ZTVN4Kleo15VerifyOpaqueJobE@Base 4:15.12
- _ZTVN4Kleo16DecryptVerifyJobE@Base 4:15.12
+ _ZTVN4Kleo15SubkeyListModelE@Base 4:17.08.0
+ _ZTVN4Kleo15UserIDListModelE@Base 4:17.08.0
  _ZTVN4Kleo16DefaultKeyFilterE@Base 4:16.08.0
- _ZTVN4Kleo16GnuPGProcessBaseE@Base 4:15.12
  _ZTVN4Kleo16KeyFilterManagerE@Base 4:15.12
- _ZTVN4Kleo16KeyForMailboxJobE@Base 4:16.08.0
  _ZTVN4Kleo17FileNameRequesterE@Base 4:15.12
+ _ZTVN4Kleo17FileSystemWatcherE@Base 4:17.08.0
  _ZTVN4Kleo17KeyApprovalDialogE@Base 4:15.12
+ _ZTVN4Kleo17KeySelectionComboE@Base 4:17.08.0
  _ZTVN4Kleo18ChecksumDefinitionE@Base 4:15.12
  _ZTVN4Kleo18CryptoConfigDialogE@Base 4:15.12
  _ZTVN4Kleo18CryptoConfigModuleE@Base 4:15.12
  _ZTVN4Kleo18KeySelectionDialogE@Base 4:15.12
- _ZTVN4Kleo19ChangeOwnerTrustJobE@Base 4:15.12
  _ZTVN4Kleo19SigningKeyRequesterE@Base 4:15.12
- _ZTVN4Kleo20CryptoBackendFactoryE@Base 4:15.12
+ _ZTVN4Kleo20AbstractKeyListModelE@Base 4:17.08.0
+ _ZTVN4Kleo21KConfigBasedKeyFilterE@Base 4:17.08.0
  _ZTVN4Kleo22EncryptionKeyRequesterE@Base 4:15.12
- _ZTVN4Kleo22HierarchicalKeyListJobE@Base 4:15.12
+ _ZTVN4Kleo23DefaultKeyGenerationJobE@Base 4:17.08.0
  _ZTVN4Kleo23DirectoryServicesWidgetE@Base 4:15.12
+ _ZTVN4Kleo27KeyListSortFilterProxyModelE@Base 4:17.08.0
  _ZTVN4Kleo28DNAttributeOrderConfigWidgetE@Base 4:15.12
- _ZTVN4Kleo3JobE@Base 4:15.12
- _ZTVN4Kleo7SignJobE@Base 4:15.12
+ _ZTVN4Kleo29KeyRearrangeColumnsProxyModelE@Base 4:17.08.0
+ _ZTVN4Kleo35AbstractKeyListSortFilterProxyModelE@Base 4:17.08.0
+ _ZTVN4Kleo7Private14AuditLogViewerE@Base 4:17.08.0
+ _ZTVN4Kleo8KeyCache14RefreshKeysJobE@Base 4:17.08.0
+ _ZTVN4Kleo8KeyCacheE@Base 4:17.08.0
  _ZTVN4Kleo9ExceptionE@Base 4:15.12
  _ZTVN5boost16exception_detail10clone_baseE@Base 4:15.12
  _ZTVN5boost9exceptionE@Base 4:15.12
- _ZZZN4Kleo23DirectoryServicesWidget7Private2UIC4EPS0_ENKUlvE0_clEvE15qstring_literal@Base 4:15.12
- _ZZZN4Kleo23DirectoryServicesWidget7Private2UIC4EPS0_ENKUlvE1_clEvE15qstring_literal@Base 4:15.12
- _ZZZN4Kleo23DirectoryServicesWidget7Private2UIC4EPS0_ENKUlvE_clEvE15qstring_literal@Base 4:15.12
+ _ZTVSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ _ZTVSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
  (c++)"non-virtual thunk to KDHorizontalLine::~KDHorizontalLine()@Base" 4:15.12
+ (c++)"non-virtual thunk to Kleo::AbstractKeyListModel::indexes(std::vector<GpgME::Key, std::allocator<GpgME::Key> > const&) const@Base" 4:17.08.0
+ (c++)"non-virtual thunk to Kleo::AbstractKeyListModel::key(QModelIndex const&) const@Base" 4:17.08.0
+ (c++)"non-virtual thunk to Kleo::AbstractKeyListModel::keys(QList<QModelIndex> const&) const@Base" 4:17.08.0
+ (c++)"non-virtual thunk to Kleo::AbstractKeyListModel::~AbstractKeyListModel()@Base" 4:17.08.0
+ (c++)"non-virtual thunk to Kleo::AbstractKeyListSortFilterProxyModel::index(GpgME::Key const&) const@Base" 4:17.08.0
+ (c++)"non-virtual thunk to Kleo::AbstractKeyListSortFilterProxyModel::indexes(std::vector<GpgME::Key, std::allocator<GpgME::Key> > const&) const@Base" 4:17.08.0
+ (c++)"non-virtual thunk to Kleo::AbstractKeyListSortFilterProxyModel::key(QModelIndex const&) const@Base" 4:17.08.0
+ (c++)"non-virtual thunk to Kleo::AbstractKeyListSortFilterProxyModel::keys(QList<QModelIndex> const&) const@Base" 4:17.08.0
+ (c++)"non-virtual thunk to Kleo::AbstractKeyListSortFilterProxyModel::~AbstractKeyListSortFilterProxyModel()@Base" 4:17.08.0
  (c++)"non-virtual thunk to Kleo::DNAttributeOrderConfigWidget::~DNAttributeOrderConfigWidget()@Base" 4:15.12
  (c++)"non-virtual thunk to Kleo::DirectoryServicesWidget::~DirectoryServicesWidget()@Base" 4:15.12
  (c++)"non-virtual thunk to Kleo::EncryptionKeyRequester::~EncryptionKeyRequester()@Base" 4:15.12
  (c++)"non-virtual thunk to Kleo::FileNameRequester::~FileNameRequester()@Base" 4:15.12
  (c++)"non-virtual thunk to Kleo::KeyApprovalDialog::~KeyApprovalDialog()@Base" 4:15.12
+ (c++)"non-virtual thunk to Kleo::KeyListSortFilterProxyModel::~KeyListSortFilterProxyModel()@Base" 4:17.08.0
  (c++)"non-virtual thunk to Kleo::KeyListView::~KeyListView()@Base" 4:15.12
+ (c++)"non-virtual thunk to Kleo::KeyRearrangeColumnsProxyModel::index(GpgME::Key const&) const@Base" 4:17.08.0
+ (c++)"non-virtual thunk to Kleo::KeyRearrangeColumnsProxyModel::indexes(std::vector<GpgME::Key, std::allocator<GpgME::Key> > const&) const@Base" 4:17.08.0
+ (c++)"non-virtual thunk to Kleo::KeyRearrangeColumnsProxyModel::key(QModelIndex const&) const@Base" 4:17.08.0
+ (c++)"non-virtual thunk to Kleo::KeyRearrangeColumnsProxyModel::keys(QList<QModelIndex> const&) const@Base" 4:17.08.0
  (c++)"non-virtual thunk to Kleo::KeyRequester::~KeyRequester()@Base" 4:15.12
+ (c++)"non-virtual thunk to Kleo::KeySelectionCombo::~KeySelectionCombo()@Base" 4:17.08.0
  (c++)"non-virtual thunk to Kleo::KeySelectionDialog::~KeySelectionDialog()@Base" 4:15.12
+ (c++)"non-virtual thunk to Kleo::Private::AuditLogViewer::~AuditLogViewer()@Base" 4:17.08.0
  (c++)"non-virtual thunk to Kleo::ProgressDialog::~ProgressDialog()@Base" 4:15.12
  (c++)"non-virtual thunk to Kleo::SigningKeyRequester::~SigningKeyRequester()@Base" 4:15.12
- (c++)"non-virtual thunk to QGpgMECryptoConfig::clear()@Base" 4:15.12
- (c++)"non-virtual thunk to QGpgMECryptoConfig::component(QString const&) const@Base" 4:15.12
- (c++)"non-virtual thunk to QGpgMECryptoConfig::componentList() const@Base" 4:15.12
- (c++)"non-virtual thunk to QGpgMECryptoConfig::sync(bool)@Base" 4:15.12
- (c++)"non-virtual thunk to QGpgMECryptoConfig::~QGpgMECryptoConfig()@Base" 4:15.12
