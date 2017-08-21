@@ -29,8 +29,14 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkleo.git
 Package: libkf5libkleo-data
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: libkf5libkleo5 (<= 4:16.04), ${kde-l10n:all}
-Replaces: libkf5libkleo5 (<= 4:16.04), ${kde-l10n:all}
+Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
+        kde-l10n-eo (<< 4:17.03.90-0~),
+        libkf5libkleo5 (<= 4:16.04),
+        ${kde-l10n:all},
+Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
+          kde-l10n-eo (<< 4:17.03.90-0~),
+          libkf5libkleo5 (<= 4:16.04),
+          ${kde-l10n:all},
 Multi-Arch: foreign
 Description: KDE PIM cryptographic library, data files
  This package contains the data files used by libkleo, a library for Kleopatra
