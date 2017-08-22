@@ -1,8 +1,12 @@
-libkf5libkleo (4:17.08.0-1~) UNRELEASED; urgency=medium
+libkf5libkleo (4:17.08.0-1~1) UNRELEASED; urgency=medium
 
   * New upstream release (17.08.0)
+  * Bump Standards-Version to 4.0.1.
+  * Update upstream metadata
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 21 Aug 2017 19:41:33 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 22 Aug 2017 16:54:39 +0200
 
 libkf5libkleo (4:17.08.0-0neon) xenial; urgency=medium
 
