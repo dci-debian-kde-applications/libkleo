@@ -61,6 +61,7 @@ Description: KDE PIM cryptographic library, devel files
  Kleopatra and other parts of KDE using certificate-based crypto.
  .
  This package is part of the KDE PIM module.
+Breaks: libkf5messagecomposer-dev (<< 4:17.08)
 
 Package: libkf5libkleo5
 Architecture: any
@@ -73,3 +74,9 @@ Description: KDE PIM cryptographic library
  using certificate-based crypto.
  .
  This package is part of the KDE PIM module.
+Breaks: kdepim-addons (<< 17.08),
+        kleopatra (<< 4:17.08),
+        kmail (<< 4:17.08),
+        libkf5kaddressbookgrantlee5 (<< 4:17.08),
+        libkf5messagecomposer5 (<< 4:17.08),
+        libkf5messageviewer5 (<< 4:17.08),
