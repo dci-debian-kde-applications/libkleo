@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:17.08.0 amd64
+# SymbolsHelper-Confirmed: 4:17.08.0 alpha amd64 arm64 armel armhf hppa i386 m68k mips mips64el mipsel powerpc ppc64 ppc64el s390x
 libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZN16KDHorizontalLine10indentHintEv@Base 4:15.12
  _ZN16KDHorizontalLine10paintEventEP11QPaintEvent@Base 4:15.12
@@ -812,15 +812,24 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZNK4Kleo9KeyFilter15FontDescription4fontERK5QFont@Base 4:17.08.0
  _ZNK4Kleo9KeyFilter15FontDescription7resolveERKS1_@Base 4:17.08.0
  (optional=templinst)_ZNSt11__copy_moveILb0ELb0ESt26random_access_iterator_tagE8__copy_mIPKN5GpgME3KeyEPS4_EET0_T_S9_S8_@Base 4:17.08.0
- (optional=templinst)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 4:17.08.0
- (optional=templinst)_ZNSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 4:17.08.0
- (optional=templinst)_ZNSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 4:17.08.0
- (optional=templinst)_ZNSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info@Base 4:17.08.0
- (optional=templinst)_ZNSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 4:17.08.0
- (optional=templinst)_ZNSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 4:17.08.0
- (optional=templinst)_ZNSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info@Base 4:17.08.0
- (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 4:17.08.0
- (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv@Base 4:17.08.0
+ (optional=templinst|arch=armel)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE1EE10_M_disposeEv@Base 4:17.08.0
+ (optional=templinst|arch=!armel)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 4:17.08.0
+ (optional=templinst|arch=armel)_ZNSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE1EE10_M_destroyEv@Base 4:17.08.0
+ (optional=templinst|arch=armel)_ZNSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE1EE10_M_disposeEv@Base 4:17.08.0
+ (optional=templinst|arch=armel)_ZNSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE1EE14_M_get_deleterERKSt9type_info@Base 4:17.08.0
+ (optional=templinst|arch=!armel)_ZNSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 4:17.08.0
+ (optional=templinst|arch=!armel)_ZNSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 4:17.08.0
+ (optional=templinst|arch=!armel)_ZNSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info@Base 4:17.08.0
+ (optional=templinst|arch=armel)_ZNSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE1EE10_M_destroyEv@Base 4:17.08.0
+ (optional=templinst|arch=armel)_ZNSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE1EE10_M_disposeEv@Base 4:17.08.0
+ (optional=templinst|arch=armel)_ZNSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE1EE14_M_get_deleterERKSt9type_info@Base 4:17.08.0
+ (optional=templinst|arch=!armel)_ZNSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 4:17.08.0
+ (optional=templinst|arch=!armel)_ZNSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 4:17.08.0
+ (optional=templinst|arch=!armel)_ZNSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info@Base 4:17.08.0
+ (optional=templinst|arch=armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_destroyEv@Base 4:17.08.0
+ (optional=templinst|arch=armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_releaseEv@Base 4:17.08.0
+ (optional=templinst|arch=!armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 4:17.08.0
+ (optional=templinst|arch=!armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv@Base 4:17.08.0
  (optional=templinst)_ZNSt17_Temporary_bufferIN9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN4Kleo9KeyFilterEESt6vectorIS5_SaIS5_EEEES5_EC1ESA_SA_@Base 4:17.08.0
  (optional=templinst)_ZNSt17_Temporary_bufferIN9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN4Kleo9KeyFilterEESt6vectorIS5_SaIS5_EEEES5_EC2ESA_SA_@Base 4:17.08.0
  (optional=templinst)_ZNSt17_Temporary_bufferIN9__gnu_cxx17__normal_iteratorIPSt10shared_ptrIN4Kleo9KeyFilterEESt6vectorIS5_SaIS5_EEEES5_ED1Ev@Base 4:17.08.0
@@ -830,18 +839,13 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  (optional=templinst)_ZNSt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5GpgME3KeyEEaSEOS8_@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorI4QUrlSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EE17_M_realloc_insertIJS2_EEEvN9__gnu_cxx17__normal_iteratorIPS2_S4_EEDpOT_@Base 4:17.08.0
- (optional=templinst|arch=!amd64 !armhf !i386)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EE19_M_emplace_back_auxIIS2_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EED1Ev@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN4Kleo17KeyApprovalDialog4ItemESaIS2_EED2Ev@Base 4:15.12
- (optional=templinst|arch=alpha arm64 armel armhf hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED1Ev@Base 4:16.04.0
- (optional=templinst|arch=alpha arm64 armel armhf hppa mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64)_ZNSt6vectorIN5GpgME13Configuration6OptionESaIS2_EED2Ev@Base 4:16.04.0
  (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EED1Ev@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorIN5GpgME16DecryptionResult9RecipientESaIS2_EED2Ev@Base 4:17.08.0
- (optional=templinst|arch=!amd64 !armhf !i386)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIIS1_EEEvDpOT_@Base 4:15.12
- (optional=templinst|arch=powerpc ppc64 ppc64el|subst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE7reserveE{size_t}@Base 4:16.04.1
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Base 4:17.08.0
- (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE7reserveEm@Base 4:17.08.0
+ (optional=templinst|subst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EE7reserveE{size_t}@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED1Ev@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN5GpgME6SubkeyESaIS1_EED2Ev@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserID9SignatureESaIS2_EED1Ev@Base 4:17.08.0
@@ -850,35 +854,30 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  (optional=templinst)_ZNSt6vectorIN5GpgME6UserIDESaIS1_EED2Ev@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED1Ev@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorIN5GpgME9SignatureESaIS1_EED2Ev@Base 4:17.08.0
- (optional=templinst|arch=!amd64 !armhf !i386)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIIS5_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE12emplace_backIJS5_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_@Base 4:17.08.0
- (optional=templinst|arch=alpha arm64 armel hppa kfreebsd-amd64 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE19_M_emplace_back_auxIIS5_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorIP9QComboBoxSaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Base 4:17.08.0
- (optional=templinst|arch=!amd64 !armhf !i386)_ZNSt6vectorIP9QComboBoxSaIS1_EE19_M_emplace_back_auxIIRKS1_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorIPKcSaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorIPN4Kleo12KeyRequesterESaIS2_EE17_M_realloc_insertIJRKS2_EEEvN9__gnu_cxx17__normal_iteratorIPS2_S4_EEDpOT_@Base 4:17.08.0
- (optional=templinst|arch=!amd64 !armhf !i386)_ZNSt6vectorIPN4Kleo12KeyRequesterESaIS2_EE19_M_emplace_back_auxIIRKS2_EEEvDpOT_@Base 4:15.12
  (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo18ChecksumDefinitionEESaIS3_EE17_M_realloc_insertIJRKS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 4:17.08.0
- (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo18ChecksumDefinitionEESaIS3_EE7reserveEm@Base 4:17.08.0
+ (optional=templinst|subst)_ZNSt6vectorISt10shared_ptrIN4Kleo18ChecksumDefinitionEESaIS3_EE7reserveE{size_t}@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo18ChecksumDefinitionEESaIS3_EED1Ev@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo18ChecksumDefinitionEESaIS3_EED2Ev@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo9KeyFilterEESaIS3_EE12emplace_backIJS3_EEEvDpOT_@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo9KeyFilterEESaIS3_EE17_M_realloc_insertIJRKS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo9KeyFilterEESaIS3_EE17_M_realloc_insertIJS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Base 4:17.08.0
- (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo9KeyFilterEESaIS3_EE7reserveEm@Base 4:17.08.0
+ (optional=templinst|subst)_ZNSt6vectorISt10shared_ptrIN4Kleo9KeyFilterEESaIS3_EE7reserveE{size_t}@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo9KeyFilterEESaIS3_EED1Ev@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorISt10shared_ptrIN4Kleo9KeyFilterEESaIS3_EED2Ev@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5GpgME3KeyEESaIS9_EE17_M_realloc_insertIJRKS9_EEEvN9__gnu_cxx17__normal_iteratorIPS9_SB_EEDpOT_@Base 4:17.08.0
- (optional=templinst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5GpgME3KeyEESaIS9_EE7reserveEm@Base 4:17.08.0
+ (optional=templinst|subst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5GpgME3KeyEESaIS9_EE7reserveE{size_t}@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5GpgME3KeyEESaIS9_EED1Ev@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5GpgME3KeyEESaIS9_EED2Ev@Base 4:17.08.0
  (optional=templinst)_ZNSt6vectorIiSaIiEE17_M_realloc_insertIJiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_@Base 4:17.08.0
  (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE16_M_insert_uniqueIRKS0_EESt4pairISt17_Rb_tree_iteratorIS0_EbEOT_@Base 4:17.08.0
- (optional=templinst|arch=!amd64 !armhf !i386)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE17_M_insert_unique_IRKS0_NS6_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS0_ESt23_Rb_tree_const_iteratorIS0_EOT_RT0_@Base 4:15.12
  (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE24_M_get_insert_unique_posERKS0_@Base 4:15.12
  (optional=templinst|arch=!alpha !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS0_ERKS0_@Base 4:15.12
  (optional=templinst)_ZNSt8_Rb_treeI7QStringS0_St9_IdentityIS0_ESt4lessIS0_ESaIS0_EE4swapERS6_@Base 4:17.08.0
@@ -920,10 +919,17 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZTIN4Kleo9KeyFilterE@Base 4:17.08.0
  _ZTIN5boost16exception_detail10clone_baseE@Base 4:15.12
  _ZTIN5boost9exceptionE@Base 4:15.12
- _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
- _ZTISt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
- _ZTISt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
- _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ (arch=armel)_ZTIN9__gnu_cxx24__concurrence_lock_errorE@Base 4:17.08.0
+ (arch=armel)_ZTIN9__gnu_cxx26__concurrence_unlock_errorE@Base 4:17.08.0
+ (arch=armel)_ZTIN9__gnu_cxx7__mutexE@Base 4:17.08.0
+ (arch=armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:17.08.0
+ (arch=!armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ (arch=armel)_ZTISt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE1EE@Base 4:17.08.0
+ (arch=!armel)_ZTISt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ (arch=armel)_ZTISt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE1EE@Base 4:17.08.0
+ (arch=!armel)_ZTISt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ (arch=armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:17.08.0
+ (arch=!armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
  _ZTS16KDHorizontalLine@Base 4:15.12
  _ZTSN4Kleo11KeyListView14ColumnStrategyE@Base 4:15.12
  _ZTSN4Kleo11KeyListView15DisplayStrategyE@Base 4:15.12
@@ -960,10 +966,17 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZTSN4Kleo9KeyFilterE@Base 4:17.08.0
  _ZTSN5boost16exception_detail10clone_baseE@Base 4:15.12
  _ZTSN5boost9exceptionE@Base 4:15.12
- _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
- _ZTSSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
- _ZTSSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
- _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ (arch=armel)_ZTSN9__gnu_cxx24__concurrence_lock_errorE@Base 4:17.08.0
+ (arch=armel)_ZTSN9__gnu_cxx26__concurrence_unlock_errorE@Base 4:17.08.0
+ (arch=armel)_ZTSN9__gnu_cxx7__mutexE@Base 4:17.08.0
+ (arch=armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:17.08.0
+ (arch=!armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ (arch=armel)_ZTSSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE1EE@Base 4:17.08.0
+ (arch=!armel)_ZTSSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ (arch=armel)_ZTSSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE1EE@Base 4:17.08.0
+ (arch=!armel)_ZTSSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ (arch=armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 4:17.08.0
+ (arch=!armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
  _ZTV16KDHorizontalLine@Base 4:15.12
  _ZTVN4Kleo11KeyListView14ColumnStrategyE@Base 4:15.12
  _ZTVN4Kleo11KeyListView15DisplayStrategyE@Base 4:15.12
@@ -999,8 +1012,12 @@ libKF5Libkleo.so.5 libkf5libkleo5 #MINVER#
  _ZTVN4Kleo9ExceptionE@Base 4:15.12
  _ZTVN5boost16exception_detail10clone_baseE@Base 4:15.12
  _ZTVN5boost9exceptionE@Base 4:15.12
- _ZTVSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
- _ZTVSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ (arch=armel)_ZTVN9__gnu_cxx24__concurrence_lock_errorE@Base 4:17.08.0
+ (arch=armel)_ZTVN9__gnu_cxx26__concurrence_unlock_errorE@Base 4:17.08.0
+ (arch=armel)_ZTVSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE1EE@Base 4:17.08.0
+ (arch=!armel)_ZTVSt15_Sp_counted_ptrIPN4Kleo21KConfigBasedKeyFilterELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ (arch=armel)_ZTVSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE1EE@Base 4:17.08.0
+ (arch=!armel)_ZTVSt15_Sp_counted_ptrIPN4Kleo8KeyCacheELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
  (c++)"non-virtual thunk to KDHorizontalLine::~KDHorizontalLine()@Base" 4:15.12
  (c++)"non-virtual thunk to Kleo::AbstractKeyListModel::indexes(std::vector<GpgME::Key, std::allocator<GpgME::Key> > const&) const@Base" 4:17.08.0
  (c++)"non-virtual thunk to Kleo::AbstractKeyListModel::key(QModelIndex const&) const@Base" 4:17.08.0
